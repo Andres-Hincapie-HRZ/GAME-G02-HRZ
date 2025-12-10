@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   mongodb:
@@ -8,10 +8,10 @@ services:
     ports:
       - "27017:27017"
     environment:
-#      # Usuario y contraseña del administrador
-#      MONGO_INITDB_ROOT_USERNAME: admin
-#      MONGO_INITDB_ROOT_PASSWORD: admin123
-#      # Base de datos inicial (opcional)
+      #      # Usuario y contraseña del administrador
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin123
+      #      # Base de datos inicial (opcional)
       MONGO_INITDB_DATABASE: go2super
     volumes:
       # Persistir datos en tu máquina local
