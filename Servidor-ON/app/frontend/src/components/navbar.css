@@ -1,0 +1,10 @@
+.bg-dark1 {
+  background-color: transparent !important;
+}
+.item-font {
+  font-size: 18.5px;
+  color: #ffffff;
+  font-family: "Exo";
+  line-height: 3px;
+  text-transform: uppercase;
+}

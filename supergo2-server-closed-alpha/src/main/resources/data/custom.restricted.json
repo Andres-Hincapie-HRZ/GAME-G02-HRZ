@@ -1,0 +1,8401 @@
+{
+  "instances": [
+    {
+      "id": 30,
+      "name": "instance:restricted.1",
+      "experienceGain": 10000,
+      "rewards": [
+        {
+          "prop": "prop:chest.restricted.1",
+          "num": 1,
+          "weight": 5
+        },
+        {
+          "prop": "prop:badge",
+          "num": 10,
+          "weight": 100
+        },
+        {
+          "prop": "prop:chest.newYearChest",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [
+        {
+          "x": 18,
+          "y": 22
+        },
+        {
+          "x": 19,
+          "y": 22
+        },
+        {
+          "x": 20,
+          "y": 22
+        },
+        {
+          "x": 21,
+          "y": 22
+        },
+        {
+          "x": 22,
+          "y": 22
+        },
+        {
+          "x": 20,
+          "y": 20
+        },
+        {
+          "x": 22,
+          "y": 18
+        },
+        {
+          "x": 22,
+          "y": 19
+        },
+        {
+          "x": 22,
+          "y": 20
+        },
+        {
+          "x": 22,
+          "y": 21
+        }
+      ],
+      "fortifications": [
+        {
+          "x": 18,
+          "y": 9,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        }
+      ],
+      "fleets": [
+        {
+          "x": 9,
+          "y": 9,
+          "layout": "layout:challenge1a"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "instance:restricted.2",
+      "experienceGain": 20000,
+      "rewards": [
+        {
+          "prop": "prop:chest.restricted.2",
+          "num": 1,
+          "weight": 6
+        },
+        {
+          "prop": "prop:badge",
+          "num": 13,
+          "weight": 100
+        },
+        {
+          "prop": "prop:chest.newYearChest",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 20
+        },
+        {
+          "x": 4,
+          "y": 22
+        },
+        {
+          "x": 20,
+          "y": 2
+        },
+        {
+          "x": 22,
+          "y": 4
+        },
+        {
+          "x": 20,
+          "y": 22
+        },
+        {
+          "x": 22,
+          "y": 20
+        },
+        {
+          "x": 11,
+          "y": 12
+        },
+        {
+          "x": 12,
+          "y": 10
+        },
+        {
+          "x": 12,
+          "y": 12
+        },
+        {
+          "x": 13,
+          "y": 12
+        }
+      ],
+      "fortifications": [],
+      "fleets": [
+        {
+          "x": 2,
+          "y": 2,
+          "layout": "layout:challenge2a"
+        },
+        {
+          "x": 2,
+          "y": 22,
+          "layout": "layout:challenge2a"
+        },
+        {
+          "x": 3,
+          "y": 7,
+          "layout": "layout:challenge2b"
+        },
+        {
+          "x": 3,
+          "y": 17,
+          "layout": "layout:challenge2b"
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "layout": "layout:challenge2a"
+        },
+        {
+          "x": 4,
+          "y": 20,
+          "layout": "layout:challenge2a"
+        },
+        {
+          "x": 7,
+          "y": 3,
+          "layout": "layout:challenge2b"
+        },
+        {
+          "x": 7,
+          "y": 21,
+          "layout": "layout:challenge2b"
+        },
+        {
+          "x": 17,
+          "y": 3,
+          "layout": "layout:challenge2b"
+        },
+        {
+          "x": 17,
+          "y": 21,
+          "layout": "layout:challenge2b"
+        },
+        {
+          "x": 20,
+          "y": 4,
+          "layout": "layout:challenge2a"
+        },
+        {
+          "x": 20,
+          "y": 20,
+          "layout": "layout:challenge2a"
+        },
+        {
+          "x": 21,
+          "y": 7,
+          "layout": "layout:challenge2b"
+        },
+        {
+          "x": 21,
+          "y": 17,
+          "layout": "layout:challenge2b"
+        },
+        {
+          "x": 22,
+          "y": 2,
+          "layout": "layout:challenge2a"
+        },
+        {
+          "x": 22,
+          "y": 22,
+          "layout": "layout:challenge2a"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "instance:restricted.3",
+      "experienceGain": 30000,
+      "rewards": [
+        {
+          "prop": "prop:chest.restricted.3",
+          "num": 1,
+          "weight": 7
+        },
+        {
+          "prop": "prop:badge",
+          "num": 16,
+          "weight": 100
+        },
+        {
+          "prop": "prop:chest.newYearChest",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [
+        {
+          "x": 6,
+          "y": 12
+        },
+        {
+          "x": 4,
+          "y": 8
+        },
+        {
+          "x": 4,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 12
+        },
+        {
+          "x": 4,
+          "y": 14
+        },
+        {
+          "x": 4,
+          "y": 16
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 2,
+          "y": 12
+        },
+        {
+          "x": 2,
+          "y": 14
+        },
+        {
+          "x": 2,
+          "y": 16
+        },
+        {
+          "x": 2,
+          "y": 18
+        },
+        {
+          "x": 2,
+          "y": 20
+        }
+      ],
+      "fortifications": [
+        {
+          "x": 1,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 7,
+          "id": 16,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 17,
+          "id": 16,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 9,
+          "id": 17,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 15,
+          "id": 17,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        }
+      ],
+      "fleets": [
+        {
+          "x": 12,
+          "y": 8,
+          "layout": "layout:challenge3a"
+        },
+        {
+          "x": 12,
+          "y": 10,
+          "layout": "layout:challenge3a"
+        },
+        {
+          "x": 12,
+          "y": 12,
+          "layout": "layout:challenge3a"
+        },
+        {
+          "x": 12,
+          "y": 14,
+          "layout": "layout:challenge3a"
+        },
+        {
+          "x": 12,
+          "y": 16,
+          "layout": "layout:challenge3a"
+        },
+        {
+          "x": 16,
+          "y": 6,
+          "layout": "layout:challenge3c"
+        },
+        {
+          "x": 18,
+          "y": 8,
+          "layout": "layout:challenge3c"
+        },
+        {
+          "x": 16,
+          "y": 18,
+          "layout": "layout:challenge3c"
+        },
+        {
+          "x": 18,
+          "y": 16,
+          "layout": "layout:challenge3c"
+        },
+        {
+          "x": 20,
+          "y": 4,
+          "layout": "layout:challenge3c"
+        },
+        {
+          "x": 20,
+          "y": 20,
+          "layout": "layout:challenge3c"
+        },
+        {
+          "x": 20,
+          "y": 10,
+          "layout": "layout:challenge3d"
+        },
+        {
+          "x": 20,
+          "y": 14,
+          "layout": "layout:challenge3d"
+        },
+        {
+          "x": 22,
+          "y": 12,
+          "layout": "layout:challenge3d"
+        },
+        {
+          "x": 14,
+          "y": 20,
+          "layout": "layout:challenge3b"
+        },
+        {
+          "x": 12,
+          "y": 22,
+          "layout": "layout:challenge3b"
+        },
+        {
+          "x": 14,
+          "y": 4,
+          "layout": "layout:challenge3b"
+        },
+        {
+          "x": 12,
+          "y": 2,
+          "layout": "layout:challenge3b"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "instance:restricted.4",
+      "experienceGain": 40000,
+      "rewards": [
+        {
+          "prop": "prop:chest.restricted.4",
+          "num": 1,
+          "weight": 8
+        },
+        {
+          "prop": "prop:badge",
+          "num": 20,
+          "weight": 100
+        },
+        {
+          "prop": "prop:chest.newYearChest",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [
+        {
+          "x": 22,
+          "y": 24
+        },
+        {
+          "x": 23,
+          "y": 23
+        },
+        {
+          "x": 24,
+          "y": 22
+        },
+        {
+          "x": 23,
+          "y": 24
+        },
+        {
+          "x": 24,
+          "y": 23
+        },
+        {
+          "x": 24,
+          "y": 24
+        },
+        {
+          "x": 22,
+          "y": 24
+        },
+        {
+          "x": 23,
+          "y": 23
+        },
+        {
+          "x": 24,
+          "y": 22
+        },
+        {
+          "x": 23,
+          "y": 24
+        },
+        {
+          "x": 24,
+          "y": 23
+        },
+        {
+          "x": 24,
+          "y": 24
+        },
+        {
+          "x": 22,
+          "y": 24
+        },
+        {
+          "x": 23,
+          "y": 23
+        },
+        {
+          "x": 24,
+          "y": 22
+        },
+        {
+          "x": 23,
+          "y": 24
+        },
+        {
+          "x": 24,
+          "y": 23
+        },
+        {
+          "x": 24,
+          "y": 24
+        }
+      ],
+      "fortifications": [
+        {
+          "x": 8,
+          "y": 19,
+          "id": 17,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 21,
+          "id": 17,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 23,
+          "id": 17,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 8,
+          "id": 17,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 7,
+          "id": 17,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 6,
+          "id": 17,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 10,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 9,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 10,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 14,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 14,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 15,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 10,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 10,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 22,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 13,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 24,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 24,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 23,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 23,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 22,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 22,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 21,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 21,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 20,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 20,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 19,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 24,
+          "y": 19,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 24,
+          "y": 18,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 24,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 24,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 24,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 24,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 24,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        }
+      ],
+      "fleets": [
+        {
+          "x": 13,
+          "y": 24,
+          "layout": "layout:challenge4a"
+        },
+        {
+          "x": 14,
+          "y": 23,
+          "layout": "layout:challenge4a"
+        },
+        {
+          "x": 15,
+          "y": 22,
+          "layout": "layout:challenge4a"
+        },
+        {
+          "x": 16,
+          "y": 21,
+          "layout": "layout:challenge4a"
+        },
+        {
+          "x": 24,
+          "y": 13,
+          "layout": "layout:challenge4a"
+        },
+        {
+          "x": 23,
+          "y": 14,
+          "layout": "layout:challenge4a"
+        },
+        {
+          "x": 22,
+          "y": 15,
+          "layout": "layout:challenge4a"
+        },
+        {
+          "x": 21,
+          "y": 16,
+          "layout": "layout:challenge4a"
+        },
+        {
+          "x": 8,
+          "y": 22,
+          "layout": "layout:challenge4b"
+        },
+        {
+          "x": 9,
+          "y": 20,
+          "layout": "layout:challenge4b"
+        },
+        {
+          "x": 22,
+          "y": 8,
+          "layout": "layout:challenge4b"
+        },
+        {
+          "x": 20,
+          "y": 9,
+          "layout": "layout:challenge4b"
+        },
+        {
+          "x": 18,
+          "y": 20,
+          "layout": "layout:challenge4b"
+        },
+        {
+          "x": 20,
+          "y": 18,
+          "layout": "layout:challenge4b"
+        },
+        {
+          "x": 9,
+          "y": 14,
+          "layout": "layout:challenge4c"
+        },
+        {
+          "x": 9,
+          "y": 16,
+          "layout": "layout:challenge4c"
+        },
+        {
+          "x": 14,
+          "y": 9,
+          "layout": "layout:challenge4c"
+        },
+        {
+          "x": 16,
+          "y": 9,
+          "layout": "layout:challenge4c"
+        },
+        {
+          "x": 6,
+          "y": 19,
+          "layout": "layout:challenge4d"
+        },
+        {
+          "x": 5,
+          "y": 21,
+          "layout": "layout:challenge4d"
+        },
+        {
+          "x": 4,
+          "y": 23,
+          "layout": "layout:challenge4d"
+        },
+        {
+          "x": 19,
+          "y": 6,
+          "layout": "layout:challenge4d"
+        },
+        {
+          "x": 21,
+          "y": 5,
+          "layout": "layout:challenge4d"
+        },
+        {
+          "x": 23,
+          "y": 4,
+          "layout": "layout:challenge4d"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "instance:restricted.5",
+      "experienceGain": 50000,
+      "rewards": [
+        {
+          "prop": "prop:chest.restricted.5",
+          "num": 1,
+          "weight": 9
+        },
+        {
+          "prop": "prop:badge",
+          "num": 23,
+          "weight": 100
+        },
+        {
+          "prop": "prop:chest.newYearChest",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [
+        {
+          "x": 11,
+          "y": 11
+        },
+        {
+          "x": 11,
+          "y": 13
+        },
+        {
+          "x": 13,
+          "y": 11
+        },
+        {
+          "x": 13,
+          "y": 13
+        },
+        {
+          "x": 4,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 5
+        },
+        {
+          "x": 5,
+          "y": 4
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 19,
+          "y": 4
+        },
+        {
+          "x": 20,
+          "y": 4
+        },
+        {
+          "x": 19,
+          "y": 5
+        },
+        {
+          "x": 20,
+          "y": 5
+        },
+        {
+          "x": 4,
+          "y": 19
+        },
+        {
+          "x": 5,
+          "y": 19
+        },
+        {
+          "x": 4,
+          "y": 20
+        },
+        {
+          "x": 5,
+          "y": 20
+        },
+        {
+          "x": 19,
+          "y": 19
+        },
+        {
+          "x": 19,
+          "y": 20
+        },
+        {
+          "x": 20,
+          "y": 19
+        },
+        {
+          "x": 20,
+          "y": 20
+        }
+      ],
+      "fortifications": [
+        {
+          "x": 1,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        }
+      ],
+      "fleets": [
+        {
+          "x": 2,
+          "y": 12,
+          "layout": "layout:challenge5a"
+        },
+        {
+          "x": 12,
+          "y": 2,
+          "layout": "layout:challenge5a"
+        },
+        {
+          "x": 22,
+          "y": 12,
+          "layout": "layout:challenge5a"
+        },
+        {
+          "x": 12,
+          "y": 22,
+          "layout": "layout:challenge5a"
+        },
+        {
+          "x": 9,
+          "y": 12,
+          "layout": "layout:challenge5a"
+        },
+        {
+          "x": 12,
+          "y": 9,
+          "layout": "layout:challenge5a"
+        },
+        {
+          "x": 15,
+          "y": 12,
+          "layout": "layout:challenge5a"
+        },
+        {
+          "x": 12,
+          "y": 15,
+          "layout": "layout:challenge5a"
+        },
+        {
+          "x": 0,
+          "y": 11,
+          "layout": "layout:challenge5b"
+        },
+        {
+          "x": 0,
+          "y": 13,
+          "layout": "layout:challenge5b"
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "layout": "layout:challenge5b"
+        },
+        {
+          "x": 13,
+          "y": 0,
+          "layout": "layout:challenge5b"
+        },
+        {
+          "x": 24,
+          "y": 11,
+          "layout": "layout:challenge5b"
+        },
+        {
+          "x": 24,
+          "y": 13,
+          "layout": "layout:challenge5b"
+        },
+        {
+          "x": 11,
+          "y": 24,
+          "layout": "layout:challenge5b"
+        },
+        {
+          "x": 13,
+          "y": 24,
+          "layout": "layout:challenge5b"
+        },
+        {
+          "x": 9,
+          "y": 15,
+          "layout": "layout:challenge5b"
+        },
+        {
+          "x": 15,
+          "y": 9,
+          "layout": "layout:challenge5b"
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "layout": "layout:challenge5c"
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "layout": "layout:challenge5c"
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "layout": "layout:challenge5c"
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "layout": "layout:challenge5c"
+        },
+        {
+          "x": 24,
+          "y": 8,
+          "layout": "layout:challenge5c"
+        },
+        {
+          "x": 24,
+          "y": 16,
+          "layout": "layout:challenge5c"
+        },
+        {
+          "x": 8,
+          "y": 24,
+          "layout": "layout:challenge5c"
+        },
+        {
+          "x": 16,
+          "y": 24,
+          "layout": "layout:challenge5c"
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "layout": "layout:challenge5d"
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "layout": "layout:challenge5d"
+        },
+        {
+          "x": 22,
+          "y": 0,
+          "layout": "layout:challenge5d"
+        },
+        {
+          "x": 24,
+          "y": 2,
+          "layout": "layout:challenge5d"
+        },
+        {
+          "x": 0,
+          "y": 22,
+          "layout": "layout:challenge5d"
+        },
+        {
+          "x": 2,
+          "y": 24,
+          "layout": "layout:challenge5d"
+        },
+        {
+          "x": 22,
+          "y": 24,
+          "layout": "layout:challenge5d"
+        },
+        {
+          "x": 24,
+          "y": 22,
+          "layout": "layout:challenge5d"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "instance:restricted.6",
+      "experienceGain": 60000,
+      "rewards": [
+        {
+          "prop": "prop:chest.restricted.6",
+          "num": 1,
+          "weight": 10
+        },
+        {
+          "prop": "prop:badge",
+          "num": 26,
+          "weight": 100
+        },
+        {
+          "prop": "prop:chest.newYearChest",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [
+        {
+          "x": 4,
+          "y": 0
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 0,
+          "y": 4
+        },
+        {
+          "x": 0,
+          "y": 20
+        },
+        {
+          "x": 1,
+          "y": 21
+        },
+        {
+          "x": 2,
+          "y": 22
+        },
+        {
+          "x": 3,
+          "y": 23
+        },
+        {
+          "x": 4,
+          "y": 24
+        },
+        {
+          "x": 20,
+          "y": 0
+        },
+        {
+          "x": 21,
+          "y": 1
+        },
+        {
+          "x": 22,
+          "y": 2
+        },
+        {
+          "x": 23,
+          "y": 3
+        },
+        {
+          "x": 24,
+          "y": 4
+        },
+        {
+          "x": 20,
+          "y": 24
+        },
+        {
+          "x": 21,
+          "y": 23
+        },
+        {
+          "x": 22,
+          "y": 22
+        },
+        {
+          "x": 23,
+          "y": 21
+        },
+        {
+          "x": 24,
+          "y": 20
+        }
+      ],
+      "fortifications": [
+        {
+          "x": 12,
+          "y": 12,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "id": 17,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 7,
+          "id": 17,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 17,
+          "id": 17,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 17,
+          "id": 17,
+          "level": 5,
+          "kind": "common"
+        }
+      ],
+      "fleets": [
+        {
+          "x": 4,
+          "y": 4,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 4,
+          "y": 20,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 20,
+          "y": 4,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 20,
+          "y": 20,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 9,
+          "y": 8,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 12,
+          "y": 8,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 15,
+          "y": 8,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 16,
+          "y": 9,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 16,
+          "y": 12,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 16,
+          "y": 15,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 15,
+          "y": 16,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 12,
+          "y": 16,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 9,
+          "y": 16,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 8,
+          "y": 15,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 8,
+          "y": 12,
+          "layout": "layout:challenge6a"
+        },
+        {
+          "x": 10,
+          "y": 10,
+          "layout": "layout:challenge6b"
+        },
+        {
+          "x": 12,
+          "y": 10,
+          "layout": "layout:challenge6b"
+        },
+        {
+          "x": 14,
+          "y": 10,
+          "layout": "layout:challenge6b"
+        },
+        {
+          "x": 14,
+          "y": 12,
+          "layout": "layout:challenge6b"
+        },
+        {
+          "x": 14,
+          "y": 14,
+          "layout": "layout:challenge6b"
+        },
+        {
+          "x": 12,
+          "y": 14,
+          "layout": "layout:challenge6b"
+        },
+        {
+          "x": 10,
+          "y": 14,
+          "layout": "layout:challenge6b"
+        },
+        {
+          "x": 10,
+          "y": 12,
+          "layout": "layout:challenge6b"
+        },
+        {
+          "x": 4,
+          "y": 12,
+          "layout": "layout:challenge6c"
+        },
+        {
+          "x": 12,
+          "y": 4,
+          "layout": "layout:challenge6c"
+        },
+        {
+          "x": 12,
+          "y": 20,
+          "layout": "layout:challenge6c"
+        },
+        {
+          "x": 20,
+          "y": 12,
+          "layout": "layout:challenge6c"
+        },
+        {
+          "x": 11,
+          "y": 11,
+          "layout": "layout:challenge6c"
+        },
+        {
+          "x": 11,
+          "y": 13,
+          "layout": "layout:challenge6c"
+        },
+        {
+          "x": 13,
+          "y": 11,
+          "layout": "layout:challenge6c"
+        },
+        {
+          "x": 13,
+          "y": 13,
+          "layout": "layout:challenge6c"
+        },
+        {
+          "x": 7,
+          "y": 12,
+          "layout": "layout:challenge6d"
+        },
+        {
+          "x": 12,
+          "y": 7,
+          "layout": "layout:challenge6d"
+        },
+        {
+          "x": 17,
+          "y": 12,
+          "layout": "layout:challenge6d"
+        },
+        {
+          "x": 12,
+          "y": 17,
+          "layout": "layout:challenge6d"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "instance:restricted.7",
+      "experienceGain": 70000,
+      "rewards": [
+        {
+          "prop": "prop:chest.restricted.7",
+          "num": 1,
+          "weight": 11
+        },
+        {
+          "prop": "prop:badge",
+          "num": 10,
+          "weight": 30
+        },
+        {
+          "prop": "prop:chest.newYearChest",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 4,
+          "y": 4
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 8
+        },
+        {
+          "x": 9,
+          "y": 9
+        },
+        {
+          "x": 10,
+          "y": 10
+        },
+        {
+          "x": 11,
+          "y": 11
+        },
+        {
+          "x": 12,
+          "y": 12
+        },
+        {
+          "x": 13,
+          "y": 13
+        },
+        {
+          "x": 14,
+          "y": 14
+        },
+        {
+          "x": 15,
+          "y": 15
+        },
+        {
+          "x": 16,
+          "y": 16
+        },
+        {
+          "x": 17,
+          "y": 17
+        },
+        {
+          "x": 18,
+          "y": 18
+        },
+        {
+          "x": 19,
+          "y": 19
+        },
+        {
+          "x": 20,
+          "y": 20
+        },
+        {
+          "x": 21,
+          "y": 21
+        }
+      ],
+      "fortifications": [
+        {
+          "x": 0,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 1,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 10,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 12,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 10,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 14,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 14,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 23,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 24,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 1,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 5,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 3,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 10,
+          "y": 7,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 10,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 14,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 12,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 14,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 17,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 23,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 24,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        }
+      ],
+      "fleets": [
+        {
+          "x": 4,
+          "y": 9,
+          "layout": "layout:challenge7a"
+        },
+        {
+          "x": 7,
+          "y": 12,
+          "layout": "layout:challenge7a"
+        },
+        {
+          "x": 10,
+          "y": 15,
+          "layout": "layout:challenge7a"
+        },
+        {
+          "x": 13,
+          "y": 18,
+          "layout": "layout:challenge7a"
+        },
+        {
+          "x": 16,
+          "y": 21,
+          "layout": "layout:challenge7a"
+        },
+        {
+          "x": 0,
+          "y": 21,
+          "layout": "layout:challenge7a"
+        },
+        {
+          "x": 1,
+          "y": 22,
+          "layout": "layout:challenge7a"
+        },
+        {
+          "x": 2,
+          "y": 23,
+          "layout": "layout:challenge7a"
+        },
+        {
+          "x": 3,
+          "y": 24,
+          "layout": "layout:challenge7a"
+        },
+        {
+          "x": 9,
+          "y": 2,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 12,
+          "y": 5,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 15,
+          "y": 8,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 18,
+          "y": 11,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 21,
+          "y": 14,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 24,
+          "y": 17,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 0,
+          "y": 22,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 1,
+          "y": 23,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 2,
+          "y": 24,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 23,
+          "y": 0,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 24,
+          "y": 1,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 24,
+          "y": 0,
+          "layout": "layout:challenge7b"
+        },
+        {
+          "x": 0,
+          "y": 9,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 3,
+          "y": 12,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 6,
+          "y": 15,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 9,
+          "y": 18,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 12,
+          "y": 21,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 15,
+          "y": 24,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 0,
+          "y": 23,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 1,
+          "y": 24,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 19,
+          "y": 1,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 21,
+          "y": 3,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 23,
+          "y": 5,
+          "layout": "layout:challenge7c"
+        },
+        {
+          "x": 4,
+          "y": 18,
+          "layout": "layout:challenge7d"
+        },
+        {
+          "x": 6,
+          "y": 20,
+          "layout": "layout:challenge7d"
+        },
+        {
+          "x": 0,
+          "y": 24,
+          "layout": "layout:challenge7d"
+        },
+        {
+          "x": 12,
+          "y": 0,
+          "layout": "layout:challenge7d"
+        },
+        {
+          "x": 15,
+          "y": 3,
+          "layout": "layout:challenge7d"
+        },
+        {
+          "x": 18,
+          "y": 6,
+          "layout": "layout:challenge7d"
+        },
+        {
+          "x": 21,
+          "y": 9,
+          "layout": "layout:challenge7d"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "instance:restricted.8",
+      "experienceGain": 80000,
+      "rewards": [
+        {
+          "prop": "prop:chest.restricted.8",
+          "num": 1,
+          "weight": 12
+        },
+        {
+          "prop": "prop:badge",
+          "num": 33,
+          "weight": 100
+        },
+        {
+          "prop": "prop:chest.newYearChest",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [
+        {
+          "x": 12,
+          "y": 12
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 6,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 2
+        },
+        {
+          "x": 14,
+          "y": 2
+        },
+        {
+          "x": 18,
+          "y": 2
+        },
+        {
+          "x": 22,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 2,
+          "y": 14
+        },
+        {
+          "x": 2,
+          "y": 18
+        },
+        {
+          "x": 2,
+          "y": 22
+        },
+        {
+          "x": 6,
+          "y": 22
+        },
+        {
+          "x": 10,
+          "y": 22
+        },
+        {
+          "x": 14,
+          "y": 22
+        },
+        {
+          "x": 18,
+          "y": 22
+        },
+        {
+          "x": 22,
+          "y": 22
+        },
+        {
+          "x": 22,
+          "y": 6
+        },
+        {
+          "x": 22,
+          "y": 10
+        },
+        {
+          "x": 22,
+          "y": 14
+        },
+        {
+          "x": 22,
+          "y": 18
+        }
+      ],
+      "fortifications": [
+        {
+          "x": 2,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 10,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 14,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 4,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 10,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 12,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 14,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 4,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 6,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 10,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 14,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 18,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 20,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 6,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 10,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 12,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 14,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 18,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 12,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 2,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 8,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 12,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 22,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        }
+      ],
+      "fleets": [
+        {
+          "x": 6,
+          "y": 6,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 10,
+          "y": 6,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 14,
+          "y": 6,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 18,
+          "y": 6,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 6,
+          "y": 10,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 6,
+          "y": 14,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 6,
+          "y": 18,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 10,
+          "y": 18,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 14,
+          "y": 18,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 18,
+          "y": 18,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 18,
+          "y": 10,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 18,
+          "y": 14,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 0,
+          "y": 11,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 0,
+          "y": 13,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 11,
+          "y": 0,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 13,
+          "y": 0,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 11,
+          "y": 24,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 13,
+          "y": 24,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 24,
+          "y": 11,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 24,
+          "y": 13,
+          "layout": "layout:challenge8a"
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 16,
+          "y": 8,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 16,
+          "y": 16,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 8,
+          "y": 12,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 12,
+          "y": 8,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 16,
+          "y": 12,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 12,
+          "y": 16,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 6,
+          "y": 0,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 18,
+          "y": 0,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 0,
+          "y": 6,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 0,
+          "y": 18,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 24,
+          "y": 6,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 24,
+          "y": 18,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 6,
+          "y": 24,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 18,
+          "y": 24,
+          "layout": "layout:challenge8b"
+        },
+        {
+          "x": 10,
+          "y": 10,
+          "layout": "layout:challenge8c"
+        },
+        {
+          "x": 14,
+          "y": 10,
+          "layout": "layout:challenge8c"
+        },
+        {
+          "x": 10,
+          "y": 14,
+          "layout": "layout:challenge8c"
+        },
+        {
+          "x": 14,
+          "y": 14,
+          "layout": "layout:challenge8c"
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "layout": "layout:challenge8c"
+        },
+        {
+          "x": 24,
+          "y": 0,
+          "layout": "layout:challenge8c"
+        },
+        {
+          "x": 0,
+          "y": 24,
+          "layout": "layout:challenge8c"
+        },
+        {
+          "x": 24,
+          "y": 24,
+          "layout": "layout:challenge8c"
+        },
+        {
+          "x": 12,
+          "y": 10,
+          "layout": "layout:challenge8d"
+        },
+        {
+          "x": 10,
+          "y": 12,
+          "layout": "layout:challenge8d"
+        },
+        {
+          "x": 12,
+          "y": 14,
+          "layout": "layout:challenge8d"
+        },
+        {
+          "x": 14,
+          "y": 12,
+          "layout": "layout:challenge8d"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "instance:restricted.9",
+      "experienceGain": 90000,
+      "rewards": [
+        {
+          "prop": "prop:chest.restricted.9",
+          "num": 1,
+          "weight": 13
+        },
+        {
+          "prop": "prop:badge",
+          "num": 36,
+          "weight": 100
+        },
+        {
+          "prop": "prop:chest.newYearChest",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [
+        {
+          "x": 12,
+          "y": 12
+        },
+        {
+          "x": 11,
+          "y": 11
+        },
+        {
+          "x": 12,
+          "y": 11
+        },
+        {
+          "x": 13,
+          "y": 11
+        },
+        {
+          "x": 11,
+          "y": 12
+        },
+        {
+          "x": 13,
+          "y": 12
+        },
+        {
+          "x": 11,
+          "y": 13
+        },
+        {
+          "x": 12,
+          "y": 13
+        },
+        {
+          "x": 13,
+          "y": 13
+        },
+        {
+          "x": 10,
+          "y": 10
+        },
+        {
+          "x": 11,
+          "y": 10
+        },
+        {
+          "x": 12,
+          "y": 10
+        },
+        {
+          "x": 13,
+          "y": 10
+        },
+        {
+          "x": 14,
+          "y": 10
+        },
+        {
+          "x": 10,
+          "y": 11
+        },
+        {
+          "x": 14,
+          "y": 11
+        },
+        {
+          "x": 10,
+          "y": 12
+        },
+        {
+          "x": 14,
+          "y": 12
+        },
+        {
+          "x": 10,
+          "y": 13
+        },
+        {
+          "x": 14,
+          "y": 13
+        },
+        {
+          "x": 10,
+          "y": 14
+        },
+        {
+          "x": 11,
+          "y": 14
+        },
+        {
+          "x": 12,
+          "y": 14
+        },
+        {
+          "x": 13,
+          "y": 14
+        },
+        {
+          "x": 14,
+          "y": 14
+        }
+      ],
+      "fortifications": [
+        {
+          "x": 9,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 15,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 13,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 15,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 9,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 10,
+          "y": 7,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 7,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 14,
+          "y": 7,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 7,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 8,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 10,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 12,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 14,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 16,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 17,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 14,
+          "y": 17,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 17,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 10,
+          "y": 17,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 8,
+          "y": 17,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 16,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 14,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 12,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 10,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "id": 16,
+          "level": 6,
+          "kind": "common"
+        },
+        {
+          "x": 2,
+          "y": 12,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 2,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 22,
+          "y": 12,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 12,
+          "y": 22,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        }
+      ],
+      "fleets": [
+        {
+          "x": 8,
+          "y": 12,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 12,
+          "y": 8,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 12,
+          "y": 16,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 16,
+          "y": 12,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 5,
+          "y": 9,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 5,
+          "y": 11,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 5,
+          "y": 13,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 5,
+          "y": 15,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 19,
+          "y": 9,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 19,
+          "y": 11,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 19,
+          "y": 13,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 19,
+          "y": 15,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 11,
+          "y": 5,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 13,
+          "y": 5,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 15,
+          "y": 5,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 9,
+          "y": 19,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 11,
+          "y": 19,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 13,
+          "y": 19,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 15,
+          "y": 19,
+          "layout": "layout:challenge9a"
+        },
+        {
+          "x": 10,
+          "y": 3,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 12,
+          "y": 3,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 14,
+          "y": 3,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 10,
+          "y": 21,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 12,
+          "y": 21,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 14,
+          "y": 21,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 3,
+          "y": 10,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 3,
+          "y": 12,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 3,
+          "y": 14,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 21,
+          "y": 10,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 21,
+          "y": 12,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 21,
+          "y": 14,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 5,
+          "y": 5,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 19,
+          "y": 5,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 5,
+          "y": 19,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 19,
+          "y": 19,
+          "layout": "layout:challenge9b"
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 20,
+          "y": 0,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 22,
+          "y": 2,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 24,
+          "y": 4,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 0,
+          "y": 20,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 2,
+          "y": 22,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 4,
+          "y": 24,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 20,
+          "y": 24,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 22,
+          "y": 22,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 24,
+          "y": 20,
+          "layout": "layout:challenge9c"
+        },
+        {
+          "x": 12,
+          "y": 0,
+          "layout": "layout:challenge9d"
+        },
+        {
+          "x": 0,
+          "y": 12,
+          "layout": "layout:challenge9d"
+        },
+        {
+          "x": 24,
+          "y": 12,
+          "layout": "layout:challenge9d"
+        },
+        {
+          "x": 12,
+          "y": 24,
+          "layout": "layout:challenge9d"
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "layout": "layout:challenge9d"
+        },
+        {
+          "x": 24,
+          "y": 0,
+          "layout": "layout:challenge9d"
+        },
+        {
+          "x": 0,
+          "y": 24,
+          "layout": "layout:challenge9d"
+        },
+        {
+          "x": 24,
+          "y": 24,
+          "layout": "layout:challenge9d"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "instance:restricted.10",
+      "experienceGain": 100000,
+      "rewards": [
+        {
+          "prop": "prop:chest.restricted.10",
+          "num": 1,
+          "weight": 15
+        },
+        {
+          "prop": "prop:badge",
+          "num": 40,
+          "weight": 100
+        },
+        {
+          "prop": "prop:chest.newYearChest",
+          "num": 1,
+          "weight": 100
+        },
+        {
+          "prop": "prop:other.constellationPass",
+          "num": 1,
+          "weight": 100
+        }
+      ],
+      "playerFleets": [
+        {
+          "x": 23,
+          "y": 23
+        },
+        {
+          "x": 19,
+          "y": 24
+        },
+        {
+          "x": 20,
+          "y": 23
+        },
+        {
+          "x": 21,
+          "y": 22
+        },
+        {
+          "x": 22,
+          "y": 21
+        },
+        {
+          "x": 23,
+          "y": 20
+        },
+        {
+          "x": 24,
+          "y": 19
+        },
+        {
+          "x": 17,
+          "y": 24
+        },
+        {
+          "x": 18,
+          "y": 23
+        },
+        {
+          "x": 19,
+          "y": 22
+        },
+        {
+          "x": 20,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": 20
+        },
+        {
+          "x": 22,
+          "y": 19
+        },
+        {
+          "x": 23,
+          "y": 18
+        },
+        {
+          "x": 24,
+          "y": 17
+        },
+        {
+          "x": 15,
+          "y": 24
+        },
+        {
+          "x": 16,
+          "y": 23
+        },
+        {
+          "x": 17,
+          "y": 22
+        },
+        {
+          "x": 18,
+          "y": 21
+        },
+        {
+          "x": 19,
+          "y": 20
+        },
+        {
+          "x": 20,
+          "y": 19
+        },
+        {
+          "x": 21,
+          "y": 18
+        },
+        {
+          "x": 22,
+          "y": 17
+        },
+        {
+          "x": 23,
+          "y": 16
+        },
+        {
+          "x": 24,
+          "y": 15
+        }
+      ],
+      "fortifications": [
+        {
+          "x": 9,
+          "y": 17,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 17,
+          "y": 9,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 13,
+          "y": 13,
+          "id": 18,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 7,
+          "y": 24,
+          "id": 17,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 24,
+          "y": 7,
+          "id": 17,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 9,
+          "y": 20,
+          "id": 17,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 20,
+          "y": 9,
+          "id": 17,
+          "level": 5,
+          "kind": "common"
+        },
+        {
+          "x": 11,
+          "y": 19,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 19,
+          "y": 11,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 21,
+          "y": 16,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        },
+        {
+          "x": 16,
+          "y": 21,
+          "id": 15,
+          "level": 2,
+          "kind": "common"
+        }
+      ],
+      "fleets": [
+        {
+          "x": 24,
+          "y": 22,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 22,
+          "y": 24,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 3,
+          "y": 21,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 3,
+          "y": 23,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 5,
+          "y": 19,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 5,
+          "y": 21,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 5,
+          "y": 23,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 7,
+          "y": 19,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 7,
+          "y": 21,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 21,
+          "y": 3,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 23,
+          "y": 3,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 19,
+          "y": 5,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 21,
+          "y": 5,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 23,
+          "y": 5,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 19,
+          "y": 7,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 21,
+          "y": 7,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 14,
+          "y": 21,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 15,
+          "y": 20,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 16,
+          "y": 19,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 17,
+          "y": 18,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 18,
+          "y": 17,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 19,
+          "y": 16,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 20,
+          "y": 15,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 21,
+          "y": 14,
+          "layout": "layout:challenge10a"
+        },
+        {
+          "x": 1,
+          "y": 14,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 1,
+          "y": 16,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 2,
+          "y": 13,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 2,
+          "y": 15,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 3,
+          "y": 12,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 3,
+          "y": 14,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 14,
+          "y": 1,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 16,
+          "y": 1,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 13,
+          "y": 2,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 15,
+          "y": 2,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 12,
+          "y": 3,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 14,
+          "y": 3,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 15,
+          "y": 19,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 19,
+          "y": 15,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 11,
+          "y": 24,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 12,
+          "y": 23,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 13,
+          "y": 22,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 24,
+          "y": 11,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 23,
+          "y": 12,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "layout": "layout:challenge10b"
+        },
+        {
+          "x": 9,
+          "y": 9,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 9,
+          "y": 11,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 10,
+          "y": 10,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 11,
+          "y": 9,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 11,
+          "y": 11,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 11,
+          "y": 15,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 15,
+          "y": 11,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 12,
+          "y": 22,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 13,
+          "y": 21,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 14,
+          "y": 20,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 20,
+          "y": 14,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 21,
+          "y": 13,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 22,
+          "y": 12,
+          "layout": "layout:challenge10c"
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "layout": "layout:challenge10d"
+        },
+        {
+          "x": 4,
+          "y": 6,
+          "layout": "layout:challenge10d"
+        },
+        {
+          "x": 6,
+          "y": 4,
+          "layout": "layout:challenge10d"
+        },
+        {
+          "x": 6,
+          "y": 6,
+          "layout": "layout:challenge10d"
+        },
+        {
+          "x": 14,
+          "y": 17,
+          "layout": "layout:challenge10d"
+        },
+        {
+          "x": 15,
+          "y": 16,
+          "layout": "layout:challenge10d"
+        },
+        {
+          "x": 16,
+          "y": 15,
+          "layout": "layout:challenge10d"
+        },
+        {
+          "x": 17,
+          "y": 14,
+          "layout": "layout:challenge10d"
+        }
+      ]
+    }
+  ],
+  "layout": [
+    {
+      "name": "layout:challenge1a",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:frigate",
+          "amount": 100
+        },
+        {
+          "design": "design:frigate",
+          "amount": 100
+        },
+        {
+          "design": "design:frigate",
+          "amount": 100
+        },
+        {
+          "design": "design:frigate",
+          "amount": 100
+        },
+        {
+          "design": "design:frigate",
+          "amount": 100
+        },
+        {
+          "design": "design:frigate",
+          "amount": 100
+        },
+        {
+          "design": "design:frigate",
+          "amount": 100
+        },
+        {
+          "design": "design:frigate",
+          "amount": 100
+        },
+        {
+          "design": "design:frigate",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge1b",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:trackerA",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerA",
+          "amount": 80
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge1c",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:cruising",
+          "amount": 100
+        },
+        {
+          "design": "design:def",
+          "amount": 100
+        },
+        {
+          "design": "design:cruising",
+          "amount": 80
+        },
+        {
+          "design": "design:cruising",
+          "amount": 100
+        },
+        {
+          "design": "design:def",
+          "amount": 100
+        },
+        {
+          "design": "design:cruising",
+          "amount": 80
+        },
+        {
+          "design": "design:cruising",
+          "amount": 100
+        },
+        {
+          "design": "design:def",
+          "amount": 100
+        },
+        {
+          "design": "design:cruising",
+          "amount": 80
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge1d",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:trackerB",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 80
+        },
+        {
+          "design": "design:def",
+          "amount": 100
+        },
+        {
+          "design": "design:def",
+          "amount": 100
+        },
+        {
+          "design": "design:def",
+          "amount": 100
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 80
+        },
+        {
+          "design": "design:trackerB",
+          "amount": 80
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge2a",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:redWolf",
+          "amount": 200
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 200
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 200
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 200
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 200
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 200
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 200
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 200
+        },
+        {
+          "design": "design:redWolf",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge2b",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:ghosty",
+          "amount": 200
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 200
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 200
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 200
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 200
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 200
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 200
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 200
+        },
+        {
+          "design": "design:ghosty",
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge3a",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:encratosA",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge3b",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:angla",
+        "rank": 1,
+        "lv": 5,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:cerberus",
+          "amount": 300
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 300
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 300
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosA",
+          "amount": 300
+        },
+        {
+          "design": "design:def",
+          "amount": 300
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 300
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 300
+        },
+        {
+          "design": "design:cerberus",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge3c",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:def",
+          "amount": 300
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 300
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 300
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 300
+        },
+        {
+          "design": "design:def",
+          "amount": 300
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 300
+        },
+        {
+          "design": "design:def",
+          "amount": 300
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 300
+        },
+        {
+          "design": "design:prometheus",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge3d",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 3,
+        "lv": 25,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:encratosB",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 300
+        },
+        {
+          "design": "design:def",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 300
+        },
+        {
+          "design": "design:def",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 300
+        },
+        {
+          "design": "design:encratosB",
+          "amount": 300
+        },
+        {
+          "design": "design:def",
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge4a",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:hawk",
+          "amount": 500
+        },
+        {
+          "design": "design:hawk",
+          "amount": 500
+        },
+        {
+          "design": "design:hawk",
+          "amount": 500
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 500
+        },
+        {
+          "design": "design:hawk",
+          "amount": 500
+        },
+        {
+          "design": "design:hawk",
+          "amount": 500
+        },
+        {
+          "design": "design:hawk",
+          "amount": 500
+        },
+        {
+          "design": "design:hawk",
+          "amount": 500
+        },
+        {
+          "design": "design:hawk",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge4b",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        null,
+        {
+          "design": "design:nyxA",
+          "amount": 500
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 500
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 500
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 500
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 500
+        },
+        null,
+        {
+          "design": "design:nyxA",
+          "amount": 500
+        },
+        {
+          "design": "design:nyxA",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge4c",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        null,
+        {
+          "design": "design:heavenlyStart",
+          "amount": 500
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 500
+        },
+        {
+          "design": "design:heavenlyStart",
+          "amount": 500
+        },
+        {
+          "design": "design:heavenlyStart",
+          "amount": 500
+        },
+        {
+          "design": "design:heavenlyStart",
+          "amount": 500
+        },
+        null,
+        {
+          "design": "design:heavenlyStart",
+          "amount": 500
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge4d",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        null,
+        {
+          "design": "design:nyxB",
+          "amount": 350
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 400
+        },
+        {
+          "design": "design:nyxB",
+          "amount": 350
+        },
+        {
+          "design": "design:nyxB",
+          "amount": 350
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 400
+        },
+        null,
+        {
+          "design": "design:nyxB",
+          "amount": 350
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 400
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge5a",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:maxA",
+          "amount": 700
+        },
+        {
+          "design": "design:maxA",
+          "amount": 700
+        },
+        {
+          "design": "design:maxA",
+          "amount": 700
+        },
+        {
+          "design": "design:maxA",
+          "amount": 700
+        },
+        {
+          "design": "design:maxA",
+          "amount": 700
+        },
+        {
+          "design": "design:maxA",
+          "amount": 700
+        },
+        {
+          "design": "design:maxA",
+          "amount": 700
+        },
+        {
+          "design": "design:maxA",
+          "amount": 700
+        },
+        {
+          "design": "design:maxA",
+          "amount": 700
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge5b",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:maxB",
+          "amount": 700
+        },
+        {
+          "design": "design:maxB",
+          "amount": 700
+        },
+        {
+          "design": "design:maxB",
+          "amount": 700
+        },
+        {
+          "design": "design:maxB",
+          "amount": 700
+        },
+        {
+          "design": "design:maxB",
+          "amount": 700
+        },
+        {
+          "design": "design:maxB",
+          "amount": 700
+        },
+        {
+          "design": "design:maxB",
+          "amount": 700
+        },
+        {
+          "design": "design:maxB",
+          "amount": 700
+        },
+        {
+          "design": "design:maxB",
+          "amount": 700
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge5c",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:maxC",
+          "amount": 700
+        },
+        {
+          "design": "design:maxC",
+          "amount": 700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 700
+        },
+        {
+          "design": "design:maxC",
+          "amount": 700
+        },
+        {
+          "design": "design:maxC",
+          "amount": 700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 700
+        },
+        {
+          "design": "design:maxC",
+          "amount": 700
+        },
+        {
+          "design": "design:maxC",
+          "amount": 700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 700
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge5d",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:maxD",
+          "amount": 700
+        },
+        {
+          "design": "design:maxD",
+          "amount": 700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 700
+        },
+        {
+          "design": "design:maxD",
+          "amount": 700
+        },
+        null,
+        {
+          "design": "design:maxD",
+          "amount": 700
+        },
+        {
+          "design": "design:maxD",
+          "amount": 700
+        },
+        {
+          "design": "design:maxD",
+          "amount": 700
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 700
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge6a",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:boss1",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss1",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss1",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss1",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss1",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss1",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss1",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss1",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss1",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge6b",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:boss2",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss2",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss2",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss2",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss2",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss2",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss2",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss2",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss2",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge6c",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:boss3",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss3",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss3",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss3",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss3",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss3",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss3",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss3",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss3",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge6d",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:boss4",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss4",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss4",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss4",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss4",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss4",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss4",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss4",
+          "amount": 1000
+        },
+        {
+          "design": "design:boss4",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge7a",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:wikesA",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesA",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesA",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesA",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesA",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesA",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesA",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesA",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesA",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge7b",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:wikesB",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesB",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesB",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesB",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesB",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesB",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesB",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesB",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesB",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge7c",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:wikesC",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesC",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesC",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesC",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesC",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesC",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesC",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesC",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesC",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge7d",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:wikesD",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesD",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesD",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesD",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesD",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesD",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesD",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesD",
+          "amount": 1500
+        },
+        {
+          "design": "design:wikesD",
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge8a",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 5,
+        "lv": 35,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newA",
+          "amount": 2000
+        },
+        {
+          "design": "design:newA",
+          "amount": 2000
+        },
+        {
+          "design": "design:newA",
+          "amount": 2000
+        },
+        {
+          "design": "design:newA",
+          "amount": 2000
+        },
+        {
+          "design": "design:newA",
+          "amount": 2000
+        },
+        {
+          "design": "design:newA",
+          "amount": 2000
+        },
+        {
+          "design": "design:newA",
+          "amount": 2000
+        },
+        {
+          "design": "design:newA",
+          "amount": 2000
+        },
+        {
+          "design": "design:newA",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge8b",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newB",
+          "amount": 2000
+        },
+        {
+          "design": "design:newB",
+          "amount": 2000
+        },
+        {
+          "design": "design:newB",
+          "amount": 2000
+        },
+        {
+          "design": "design:newB",
+          "amount": 2000
+        },
+        {
+          "design": "design:newB",
+          "amount": 2000
+        },
+        {
+          "design": "design:newB",
+          "amount": 2000
+        },
+        {
+          "design": "design:newB",
+          "amount": 2000
+        },
+        {
+          "design": "design:newB",
+          "amount": 2000
+        },
+        {
+          "design": "design:newB",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge8c",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newC",
+          "amount": 2000
+        },
+        {
+          "design": "design:newC",
+          "amount": 2000
+        },
+        {
+          "design": "design:newC",
+          "amount": 2000
+        },
+        {
+          "design": "design:newC",
+          "amount": 2000
+        },
+        {
+          "design": "design:newC",
+          "amount": 2000
+        },
+        {
+          "design": "design:newC",
+          "amount": 2000
+        },
+        {
+          "design": "design:newC",
+          "amount": 2000
+        },
+        {
+          "design": "design:newC",
+          "amount": 2000
+        },
+        {
+          "design": "design:newC",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge8d",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newD",
+          "amount": 2000
+        },
+        {
+          "design": "design:newD",
+          "amount": 2000
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2000
+        },
+        {
+          "design": "design:newD",
+          "amount": 2000
+        },
+        {
+          "design": "design:newD",
+          "amount": 2000
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2000
+        },
+        {
+          "design": "design:newD",
+          "amount": 2000
+        },
+        {
+          "design": "design:newD",
+          "amount": 2000
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge9a",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newE",
+          "amount": 2400
+        },
+        {
+          "design": "design:newE",
+          "amount": 2400
+        },
+        {
+          "design": "design:newE",
+          "amount": 2400
+        },
+        {
+          "design": "design:newE",
+          "amount": 2400
+        },
+        {
+          "design": "design:newE",
+          "amount": 2400
+        },
+        {
+          "design": "design:newE",
+          "amount": 2400
+        },
+        {
+          "design": "design:newE",
+          "amount": 2400
+        },
+        {
+          "design": "design:newE",
+          "amount": 2400
+        },
+        {
+          "design": "design:newE",
+          "amount": 2400
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge9b",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newF",
+          "amount": 2400
+        },
+        {
+          "design": "design:newF",
+          "amount": 2400
+        },
+        {
+          "design": "design:newF",
+          "amount": 2400
+        },
+        {
+          "design": "design:newF",
+          "amount": 2400
+        },
+        {
+          "design": "design:newF",
+          "amount": 2400
+        },
+        {
+          "design": "design:newF",
+          "amount": 2400
+        },
+        {
+          "design": "design:newF",
+          "amount": 2400
+        },
+        {
+          "design": "design:newF",
+          "amount": 2400
+        },
+        {
+          "design": "design:newF",
+          "amount": 2400
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge9c",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newG",
+          "amount": 2400
+        },
+        {
+          "design": "design:newG",
+          "amount": 2400
+        },
+        {
+          "design": "design:newG",
+          "amount": 2400
+        },
+        {
+          "design": "design:newG",
+          "amount": 2400
+        },
+        {
+          "design": "design:newG",
+          "amount": 2400
+        },
+        {
+          "design": "design:newG",
+          "amount": 2400
+        },
+        {
+          "design": "design:newG",
+          "amount": 2400
+        },
+        {
+          "design": "design:newG",
+          "amount": 2400
+        },
+        {
+          "design": "design:newG",
+          "amount": 2400
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge9d",
+      "targetPriority": "target:maxDurability",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newH",
+          "amount": 2400
+        },
+        {
+          "design": "design:newH",
+          "amount": 2400
+        },
+        {
+          "design": "design:newH",
+          "amount": 2400
+        },
+        {
+          "design": "design:newH",
+          "amount": 2400
+        },
+        {
+          "design": "design:newH",
+          "amount": 2400
+        },
+        {
+          "design": "design:newH",
+          "amount": 2400
+        },
+        {
+          "design": "design:newH",
+          "amount": 2400
+        },
+        {
+          "design": "design:newH",
+          "amount": 2400
+        },
+        {
+          "design": "design:newH",
+          "amount": 2400
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge10a",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newI",
+          "amount": 2800
+        },
+        {
+          "design": "design:newI",
+          "amount": 2800
+        },
+        {
+          "design": "design:newI",
+          "amount": 2800
+        },
+        {
+          "design": "design:newI",
+          "amount": 2800
+        },
+        {
+          "design": "design:newI",
+          "amount": 2800
+        },
+        {
+          "design": "design:newI",
+          "amount": 2800
+        },
+        {
+          "design": "design:newI",
+          "amount": 2800
+        },
+        {
+          "design": "design:newI",
+          "amount": 2800
+        },
+        {
+          "design": "design:newI",
+          "amount": 2800
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge10b",
+      "targetPriority": "target:closest",
+      "targetRange": "target:minRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newJ",
+          "amount": 2800
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2800
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2800
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2800
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2800
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2800
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2800
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2800
+        },
+        {
+          "design": "design:newJ",
+          "amount": 2800
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge10c",
+      "targetPriority": "target:maxAttack",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newK",
+          "amount": 2800
+        },
+        {
+          "design": "design:newK",
+          "amount": 2800
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2800
+        },
+        {
+          "design": "design:newK",
+          "amount": 2800
+        },
+        {
+          "design": "design:newK",
+          "amount": 2800
+        },
+        {
+          "design": "design:newK",
+          "amount": 2800
+        },
+        {
+          "design": "design:newK",
+          "amount": 2800
+        },
+        {
+          "design": "design:newK",
+          "amount": 2800
+        },
+        {
+          "design": "design:meatshield",
+          "amount": 2800
+        }
+      ]
+    },
+    {
+      "name": "layout:challenge10d",
+      "targetPriority": "target:closest",
+      "targetRange": "target:maxRange",
+      "commander": {
+        "name": "commander:bruce",
+        "rank": 7,
+        "lv": 50,
+        "accuracy": 10,
+        "dodge": 10,
+        "speed": 2,
+        "electron": 10
+      },
+      "layout": [
+        {
+          "design": "design:newL",
+          "amount": 2800
+        },
+        {
+          "design": "design:newL",
+          "amount": 2800
+        },
+        {
+          "design": "design:newL",
+          "amount": 2800
+        },
+        {
+          "design": "design:newL",
+          "amount": 2800
+        },
+        {
+          "design": "design:newL",
+          "amount": 2800
+        },
+        {
+          "design": "design:newL",
+          "amount": 2800
+        },
+        {
+          "design": "design:newL",
+          "amount": 2800
+        },
+        {
+          "design": "design:newL",
+          "amount": 2800
+        },
+        {
+          "design": "design:newL",
+          "amount": 2800
+        }
+      ]
+    }
+  ]
+}

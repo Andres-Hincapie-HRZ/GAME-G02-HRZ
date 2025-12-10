@@ -1,0 +1,39 @@
+.Contenttransition {
+  margin-top: 50px;
+  transition: all 1s;
+  /* background-color: lavender; */
+}
+.Contenttransition2 {
+  margin-top: 10px;
+  /* height: 100%;/ */
+  transition: all 1s;
+  /* transition: all 0.5s ease; */
+}
+
+.Content {
+  max-width: 65ch;
+}
+
+.content-text {
+  display: inline;
+  font-size: 15px;
+  color: #b7b5b5;
+  line-height: 1;
+  font-family: 'Exo';
+}
+.subContent {
+  line-height: 1;
+  text-transform: uppercase;
+}
+.read-or-hide {
+  color: white;
+  /* color: rgb(192, 192, 192); */
+  cursor: pointer;
+}
+.title-font {
+  font-family: 'Exo';
+  font-size: 60px;
+  color: #ffffff;
+  line-height: 1.2;
+  margin: 10px 0 15px 0;
+}
