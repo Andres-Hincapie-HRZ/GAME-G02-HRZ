@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  flex: 1 1 0%;
+  align-items: flex-end;
+}
+
+h3 {
+  margin-bottom: 0 !important;
+}

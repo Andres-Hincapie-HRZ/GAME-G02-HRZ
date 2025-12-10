@@ -1,0 +1,155 @@
+.content-container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 99%;
+  min-height: min-content;
+}
+
+.add__plannetContainer {
+  cursor: pointer;
+}
+
+.add__plannet {
+  background-color: #0c0d1c;
+  width: 290px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.plus__icon {
+  height: 220px;
+}
+
+.plus__icon > path {
+  stroke-width: 0.5px;
+}
+
+.myPlanet__selectorTitle {
+  background-color: #00000059;
+  max-width: fit-content !important;
+}
+
+.myPlanet__selectorTitle > p {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 0 !important;
+}
+
+.myPlanet__buttonContainer {
+  background: #808080;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.activeBtn {
+  background: #0275d8;
+}
+
+.myPlanet__buttonContainer > h1 {
+  color: white;
+  padding: 3px 75px;
+}
+
+.myPlanet_addPlanetContainer {
+  background-color: #0c0d1c;
+  width: 270px;
+  height: 250px;
+  padding: 5px;
+  margin-top: 2rem;
+}
+
+.myPlanet_addPlanet {
+  color: white;
+  padding: 0 5px;
+}
+
+.myPlanet_addPlanet > h3 {
+  font-size: 20px;
+}
+
+.myPlanet_addPlanet > input {
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: rgba(255, 255, 255, 0.438);
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.myPlanet__addPlanet--image {
+  border: 1px solid white;
+  margin: 0 5px;
+  cursor: pointer;
+  width: 350px;
+  height: fit-content;
+}
+
+.myPlanet__addPlanet--image > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.myPlanet_addPlanetButtonContainer > button {
+  background-color: #216ee1;
+  font-size: 25px;
+  text-transform: uppercase;
+  border: transparent;
+  padding: 2px;
+  color: white;
+  margin-right: 5px;
+}
+
+.added__plannetContainer {
+  cursor: pointer;
+}
+
+.added__plannet--img {
+  background-image: url("../../img/background-placeholder.jpg");
+  width: 290px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.added__plannet--img > img {
+  width: 85px;
+  object-fit: contain;
+}
+
+.myPlanet_addedPlanetContainer {
+  background-color: #0c0d1c;
+  width: 270px;
+  height: 270px;
+  padding: 5px;
+  margin-top: 2rem;
+  color: rgba(255, 255, 255, 0.589);
+}
+
+.myPlanet_addedPlanetContainer > p {
+  margin-bottom: 5px !important;
+}
+
+.myPlanet_addedPlanetContainer--image > img {
+  width: 30px;
+  object-fit: contain;
+}
+
+.myPlanet_addedPlanetContainer--image > p {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+@media (max-width: 400px) {
+  .myPlanet__selectorTitle {
+    margin-top: 30px;
+  }
+  .myPlanet__selectorTitle > p {
+    font-size: 25px;
+  }
+}

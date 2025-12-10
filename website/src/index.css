@@ -1,0 +1,47 @@
+
+@font-face {
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+  src: url('/src/img/font/Exo-Regular.ttf') format('ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #07171e;
+
+  background-image: url("./img/background.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom right;
+}
+
+body[data-bg="play"] {
+  background-image: url("./img/background-play.webp");
+}
+
+
+
+/* body::after {
+  content: "";
+  display: block;
+  height: 50px;
+} */
