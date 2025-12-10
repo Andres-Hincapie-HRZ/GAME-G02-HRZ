@@ -1,3 +1,4 @@
+---
 #----------------------#
 #   General Profile    #
 #----------------------#
@@ -45,7 +46,6 @@ spring:
     time-zone: GMT-5
 
 ---
-
 #----------------------#
 #     Dev Profile      #
 #----------------------#
@@ -70,38 +70,37 @@ application:
   game:
     patch: v2022.2.pro-dev
     whitelist: 60be1e9b8671b76f94bd23fb
-    register: true                                            # Disable/enable account register
-    login: true                                               # Disable/enable game server login (play stage)
-    maintenance: false                                        # Send default maintenance packet for every new connection
-    ip: 127.0.0.1                                             # Public IP to access
-    timeout: 70                                               # Close the connection after X seconds of socket inactivity (s)
-    interval: 100                                             # Interval to check timeout and reduce CPU usage (ms)
-    fast-ship-building: true                                  # Enable/disable fast ship building (not recommended)
-    fast-corp-upgrade: true                                   # Enable/disable fast corp upgrade (not recommended)
-    resources-url: http://localhost:7000/                     # Game resources URL (CAMBIADO A LOCAL)
-    custom-instances: false                                   # Enable/disable custom instances
-    test-mode: true                                           # Enable/disable test mode
-    fast-transmission: true                                   # Enable/disable fast transmission (not recommended)
-    verbose: 5                                                # Verbose level (0=off, 1=error/debug/dev, 2=chat, 3=info, 4=warn/thread, 5=log/packet)
-    fast-rbp: true                                            # Enable/disable fast rbp (not recommended)
-    gelf-endpoint: https://beta-gelf.supergo2.com/gelf        # GELF endpoint
-    gelf-scope: local                                             # GELF scope
+    register: true # Disable/enable account register
+    login: true # Disable/enable game server login (play stage)
+    maintenance: false # Send default maintenance packet for every new connection
+    ip: 127.0.0.1 # Public IP to access
+    timeout: 70 # Close the connection after X seconds of socket inactivity (s)
+    interval: 100 # Interval to check timeout and reduce CPU usage (ms)
+    fast-ship-building: true # Enable/disable fast ship building (not recommended)
+    fast-corp-upgrade: true # Enable/disable fast corp upgrade (not recommended)
+    resources-url: http://localhost:7000/ # Game resources URL (CAMBIADO A LOCAL)
+    custom-instances: false # Enable/disable custom instances
+    test-mode: true # Enable/disable test mode
+    fast-transmission: true # Enable/disable fast transmission (not recommended)
+    verbose: 5 # Verbose level (0=off, 1=error/debug/dev, 2=chat, 3=info, 4=warn/thread, 5=log/packet)
+    fast-rbp: true # Enable/disable fast rbp (not recommended)
+    gelf-endpoint: https://beta-gelf.supergo2.com/gelf # GELF endpoint
+    gelf-scope: local # GELF scope
     hcaptcha-secret: "0x078E2EbD57d43A6c7166ae87f3A86B9E6671eceD" # hCaptcha secret key
-    smtp-host: "smtp.mailgun.org"                                  # SMTP host
-    smtp-username: "master@supergo2.com"                          # SMTP username
-    smtp-password: "12NewPlanets09_"                              # SMTP password
-    default-admin-email: "admin@supergo2.com"                     # Default admin email
-    default-admin-password: "Ff5E!68a*5on"                        # Default admin password
-    max-users: 3                                              # Max account planets
-    phase: 1                                                  # Game phase (available: 1, 2, 3)
+    smtp-host: "smtp.mailgun.org" # SMTP host
+    smtp-username: "master@supergo2.com" # SMTP username
+    smtp-password: "12NewPlanets09_" # SMTP password
+    default-admin-email: "admin@supergo2.com" # Default admin email
+    default-admin-password: "Ff5E!68a*5on" # Default admin password
+    max-users: 3 # Max account planets
+    phase: 1 # Game phase (available: 1, 2, 3)
 
   discord:
-
-    owner: "241039350438166529"                                # Discord owner ID
-    guild: "540404711640137739"                                # Discord guild ID
-    cmd-channel: "578061221136302080"                          # Discord commands channel ID
+    owner: "241039350438166529" # Discord owner ID
+    guild: "540404711640137739" # Discord guild ID
+    cmd-channel: "578061221136302080" # Discord commands channel ID
     audit-channel: "578061221136302080" # "1002912473483071538"                       # Discord audit channel ID
-    staff-channel: "541507420342452260"                        # Discord staff channel ID
+    staff-channel: "541507420342452260" # Discord staff channel ID
     discord-token: "NDYyOTY5NjIwNDI5Nzk5NDI0.Gfsfew.mGKJ_zgLoBuMFF7r71zIUDEpum9D6UIJTrISLg" # Discord bot token
 
     incident-audit-channel: "1045289574936625212"
@@ -116,12 +115,14 @@ application:
 spring:
   data:
     mongodb:
-      uri: mongodb://127.0.0.1:27017
-      authentication-database: admin
+      host: 127.0.0.1
+      port: 27017
       database: go2super
+      username: admin
+      password: admin123
+      authentication-database: admin
 
 ---
-
 #-----------------------------#
 #     Production Profile      #
 #-----------------------------#
@@ -142,12 +143,12 @@ application:
   game:
     patch: v2022.2.pro-dev
     whitelist: 60be1e9b8671b76f94bd23fb
-    register: true         # Disable/enable account register
-    login: true            # Disable/enable game server login (play stage)
-    maintenance: false     # Send default maintenance packet for every neww connection
-    ip: 127.0.0.1          # Public IP to access
-    timeout: 70            # Close the connection after X seconds of socket inactivity (s)
-    interval: 100            # Interval to check timeout and reduce CPU usage (ms)
+    register: true # Disable/enable account register
+    login: true # Disable/enable game server login (play stage)
+    maintenance: false # Send default maintenance packet for every neww connection
+    ip: 127.0.0.1 # Public IP to access
+    timeout: 70 # Close the connection after X seconds of socket inactivity (s)
+    interval: 100 # Interval to check timeout and reduce CPU usage (ms)
 
 # Database
 spring:
