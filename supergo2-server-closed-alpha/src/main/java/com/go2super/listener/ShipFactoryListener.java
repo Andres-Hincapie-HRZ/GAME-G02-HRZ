@@ -103,7 +103,7 @@ public class ShipFactoryListener implements PacketListener {
         resources.setMetal(resources.getMetal() - (long) metal);
         resources.setGold(resources.getGold() - (long) gold);
 
-        double buildTime = PacketService.getInstance().getFastShipBuilding() ? 0 : (double) (shipModel.getBuildTime()) / (1.0 + shipBuildBonus); // * (double) (shipModel.getBuildTime()) / (1.0 + shipBuildBonus);
+        double buildTime = PacketService.getInstance().getFastShipBuilding() ? : (double) (shipModel.getBuildTime()) / (1.0 + shipBuildBonus): 3; // * (double) (shipModel.getBuildTime()) / (1.0 + shipBuildBonus);
 
         int fixedBuildTime = (int) buildTime;
         double needTime = fixedBuildTime * packet.getNum();
