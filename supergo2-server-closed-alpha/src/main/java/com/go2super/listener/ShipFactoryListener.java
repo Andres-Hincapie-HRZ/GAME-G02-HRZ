@@ -36,23 +36,26 @@ public class ShipFactoryListener implements PacketListener {
         int currentShips = user.totalShips();
         if(currentShips + packet.getNum() >= MAX_SHIPS) return;
 
-        // System.out.println(packet);
-
         UserTechs techs = user.getTechs();
         UserBuilding building = user.getBuildings().getBuilding("build:shipFactory");
         if(building == null) return;
 
-        // System.out.println("A1");
-
         ShipModel shipModel = PacketService.getShipModel(packet.getShipModelId());
 
-        // System.out.println(shipModel);
+        // ← AÑADIDO: Validación y log de debugging
+        if(shipModel == null) {
+            System.out.println("[ERROR onCreate] ShipModel NULL para shipModelId: " + packet.getShipModelId());
+            return;
+        }
+
+        System.out.println("[onCreate] Fabricando nave:");
+        System.out.println("  - shipModelId: " + shipModel.getShipModelId());
+        System.out.println("  - bodyId: " + shipModel.getBodyId());
+        System.out.println("  - name: " + shipModel.getName());
 
         if(shipModel.getGuid() != -1)
             if(shipModel.getGuid() != user.getGuid() || shipModel.isDeleted())
                 return;
-
-        // System.out.println("A2");
 
         UserShips ships = user.getShips();
         UserResources resources = user.getResources();
@@ -78,11 +81,9 @@ public class ShipFactoryListener implements PacketListener {
         double decreaseMetal = 0.0, decreaseGold = 0.0, decreaseHe3 = 0.0;
 
         if(qualityTech != null) {
-
             decreaseMetal = qualityTech.getEffectValue("decrease.ship.metal.consume");
             decreaseGold = qualityTech.getEffectValue("decrease.ship.gold.consume");
             decreaseHe3 = qualityTech.getEffectValue("decrease.ship.he3.consume");
-
         }
 
         double unitGas = (int) Math.floor(shipModel.getHe3BuildCost() * (1 - (decreaseHe3 * 0.01)));
@@ -93,27 +94,19 @@ public class ShipFactoryListener implements PacketListener {
         double metal = unitMetal * packet.getNum();
         double gold = unitGold * packet.getNum();
 
-        // System.out.println("A3");
-
         if(resources.getGold() < gold || resources.getMetal() < metal || resources.getHe3() < gas) return;
-
-        // System.out.println("A4");
 
         resources.setHe3(resources.getHe3() - (long) gas);
         resources.setMetal(resources.getMetal() - (long) metal);
         resources.setGold(resources.getGold() - (long) gold);
 
-        double buildTime = PacketService.getInstance().getFastShipBuilding() ? (double) (shipModel.getBuildTime()) / (1.0 + shipBuildBonus): 3; // * (double) (shipModel.getBuildTime()) / (1.0 + shipBuildBonus);
+        double buildTime = PacketService.getInstance().getFastShipBuilding() ? (double) (shipModel.getBuildTime()) / (1.0 + shipBuildBonus): 3;
 
         int fixedBuildTime = (int) buildTime;
         double needTime = fixedBuildTime * packet.getNum();
 
-        // System.out.println("A5");
-
         if(!ships.fabricate(packet.getShipModelId(), packet.getNum(), fixedBuildTime))
             return;
-
-        // System.out.println("A6");
 
         ResponseCreateShipPacket response = new ResponseCreateShipPacket();
 
@@ -126,8 +119,6 @@ public class ShipFactoryListener implements PacketListener {
 
         user.save();
         packet.reply(response);
-
-        // System.out.println("Response: " + response);
 
     }
 
@@ -142,20 +133,69 @@ public class ShipFactoryListener implements PacketListener {
         List<ShipModel> models = PacketService.getInstance().getShipModelCache().findAllByGuidAndDeleted(packet.getGuid(), false);
         if(models.size() >= 29) return;
 
-        // todo validate if user has parts and bodies before creating ship model
+        // ← AÑADIDO: Log del paquete recibido
+        System.out.println("=======================================================");
+        System.out.println("[onDesignShip] RECIBIENDO DISEÑO DE NAVE:");
+        System.out.println("  - GUID: " + packet.getGuid());
+        System.out.println("  - BodyId del paquete: " + packet.getBodyId());
+        System.out.println("  - Nombre: " + packet.getShipName());
+        System.out.println("  - PartNum: " + packet.getPartNum());
+        System.out.println("=======================================================");
+
+        // ← AÑADIDO: Validación del bodyId
+        int bodyId = packet.getBodyId();
+        if(bodyId < 0) {
+            System.out.println("[ERROR onDesignShip] BodyId inválido: " + bodyId);
+            return;
+        }
 
         List<Integer> parts = new ArrayList<>();
-        for(int i = 0; i < packet.getPartNum(); i++) parts.add(packet.getParts().get(i));
+        for(int i = 0; i < packet.getPartNum(); i++) {
+            parts.add(packet.getParts().get(i));
+        }
 
+        // ← AÑADIDO: Obtener el ID de forma segura
+        int newShipModelId = AutoIncrementService.getInstance().getNextShipModelId();
+
+        System.out.println("[onDesignShip] Nuevo shipModelId generado: " + newShipModelId);
+
+        // ← CORREGIDO: Crear el modelo con el bodyId correcto
         ShipModel model = ShipModel.builder()
-                .shipModelId(AutoIncrementService.getInstance().getNextShipModelId())
-                .bodyId(packet.getBodyId())
+                .shipModelId(newShipModelId)
+                .bodyId(bodyId)                              // ← Usando variable local validada
                 .deleted(false)
                 .guid(packet.getGuid())
                 .name(packet.getShipName().noSpaces())
                 .parts(parts)
                 .build();
 
+        // ← AÑADIDO: Log del modelo creado ANTES de guardar
+        System.out.println("[onDesignShip] MODELO CREADO:");
+        System.out.println("  - shipModelId: " + model.getShipModelId());
+        System.out.println("  - bodyId: " + model.getBodyId());
+        System.out.println("  - name: " + model.getName());
+        System.out.println("  - guid: " + model.getGuid());
+        System.out.println("  - parts: " + model.getParts());
+
+        // ← IMPORTANTE: GUARDAR PRIMERO en la base de datos y caché
+        PacketService.getInstance().getShipModelCache().save(model);
+
+        // ← AÑADIDO: Verificar que se guardó correctamente
+        ShipModel verificacion = PacketService.getShipModel(model.getShipModelId());
+        if(verificacion != null) {
+            System.out.println("[onDesignShip] VERIFICACIÓN después de guardar:");
+            System.out.println("  - shipModelId: " + verificacion.getShipModelId());
+            System.out.println("  - bodyId: " + verificacion.getBodyId());
+            System.out.println("  - name: " + verificacion.getName());
+
+            if(verificacion.getBodyId() != bodyId) {
+                System.out.println("[ERROR] ¡¡¡BODYID NO COINCIDE!!! Esperado: " + bodyId + ", Obtenido: " + verificacion.getBodyId());
+            }
+        } else {
+            System.out.println("[ERROR] No se pudo verificar el modelo guardado!");
+        }
+
+        // Preparar respuesta
         ResponseCreateShipModelPacket response = new ResponseCreateShipModelPacket();
 
         response.setShipModelId(model.getShipModelId());
@@ -165,11 +205,16 @@ public class ShipFactoryListener implements PacketListener {
         response.setPartNum(packet.getPartNum());
         response.setNeedMoney(0);
 
+        // ← AÑADIDO: Log de la respuesta
+        System.out.println("[onDesignShip] RESPUESTA:");
+        System.out.println("  - shipModelId: " + response.getShipModelId());
+        System.out.println("  - bodyId: " + response.getBodyId());
+        System.out.println("=======================================================");
+
         user.getMetrics().add("action:design", 1);
         user.update();
         user.save();
 
-        PacketService.getInstance().getShipModelCache().save(model);
         packet.reply(response);
 
     }
@@ -197,6 +242,12 @@ public class ShipFactoryListener implements PacketListener {
         factory.remove(factoryShip);
 
         ShipModel shipModel = PacketService.getShipModel(factoryShip.getShipModelId());
+
+        // ← AÑADIDO: Validación null
+        if(shipModel == null) {
+            System.out.println("[ERROR onCancelShip] ShipModel NULL para: " + factoryShip.getShipModelId());
+            return;
+        }
 
         double goldRefund = (shipModel.getGoldBuildCost() * factoryShip.getNum()) * 0.1;
         double he3Refund = (shipModel.getHe3BuildCost() * factoryShip.getNum()) * 0.1;
@@ -335,7 +386,18 @@ public class ShipFactoryListener implements PacketListener {
         if(user == null) return;
 
         ShipModel shipModel = PacketService.getShipModel(packet.getShipModelId());
-        if(shipModel == null) return;
+
+        // ← AÑADIDO: Log de debugging
+        System.out.println("[onAddShipModelDel] Buscando shipModelId: " + packet.getShipModelId());
+
+        if(shipModel == null) {
+            System.out.println("[ERROR onAddShipModelDel] ShipModel NULL!");
+            return;
+        }
+
+        System.out.println("[onAddShipModelDel] Modelo encontrado:");
+        System.out.println("  - name: " + shipModel.getName());
+        System.out.println("  - bodyId: " + shipModel.getBodyId());
 
         ResponseShipModelInfoDelPacket response = new ResponseShipModelInfoDelPacket();
 
@@ -353,7 +415,6 @@ public class ShipFactoryListener implements PacketListener {
         );
 
         packet.reply(response);
-
 
     }
 
@@ -385,7 +446,6 @@ public class ShipFactoryListener implements PacketListener {
                 teamModelSlot.save();
 
             }
-
 
         } else if(packet.getDelFlag() == 1) {
 
