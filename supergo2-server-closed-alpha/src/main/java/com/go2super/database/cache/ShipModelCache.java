@@ -1,56 +1,67 @@
 // Declaración del paquete donde se encuentra esta clase
 package com.go2super.database.cache;
 
-// Importaciones necesarias para entidades, repositorios, utilidades y anotaciones de Spring
-import com.go2super.database.entity.ShipModel; // Entidad ShipModel
-import com.go2super.database.repository.ShipModelRepository; // Repositorio para ShipModel
-import com.go2super.utility.GlueList; // Utilidad para listas
-import org.springframework.beans.factory.annotation.Autowired; // Anotación para inyección de dependencias
-import org.springframework.stereotype.Component; // Anotación para marcar como componente de Spring
+// Importaciones necesarias
+import com.go2super.database.entity.ShipModel;
+import com.go2super.database.repository.ShipModelRepository;
+import com.go2super.utility.GlueList;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-import java.util.List; // Interfaz List
-import java.util.concurrent.CopyOnWriteArrayList; // Lista thread-safe
-import java.util.stream.Collectors; // Utilidad para streams
+import java.util.List;
+import java.util.Map;                                    // ← AÑADIDO
+import java.util.concurrent.ConcurrentHashMap;           // ← AÑADIDO
+import java.util.stream.Collectors;
 
-// Anotación que marca esta clase como un componente de Spring
 @Component
 public class ShipModelCache {
 
-    // Campo estático final para el caché de modelos de nave, usando una lista thread-safe
-    private static final CopyOnWriteArrayList<ShipModel> cache = new CopyOnWriteArrayList<>();
+    // ← CAMBIADO: Usar ConcurrentHashMap en lugar de CopyOnWriteArrayList
+    // La key es shipModelId para búsqueda eficiente y evitar duplicados
+    private static final Map<Integer, ShipModel> cache = new ConcurrentHashMap<>();
 
-    // Campo para el repositorio de modelos de nave
     private ShipModelRepository repository;
 
-    // Constructor con inyección de dependencias para el repositorio
     @Autowired
     public void ShipModelCache(ShipModelRepository repository) {
-
         this.repository = repository;
-
         init();
-
     }
 
-    // Método para inicializar el caché cargando todos los modelos de nave del repositorio
+    // Método para inicializar el caché
     public void init() {
-        cache.addAll(repository.findAll());
+        // ← CAMBIADO: Cargar todos los modelos indexados por shipModelId
+        List<ShipModel> allModels = repository.findAll();
+        for (ShipModel model : allModels) {
+            cache.put(model.getShipModelId(), model);
+        }
+        System.out.println("[ShipModelCache] Inicializado con " + cache.size() + " modelos");
     }
 
     // Método para obtener todos los modelos de nave del caché
     public List<ShipModel> findAll() {
-        return new GlueList<>(cache);
+        return new GlueList<>(cache.values());  // ← CAMBIADO
     }
 
-    // Método para guardar un modelo de nave en el repositorio y añadirlo al caché si no existe
+    // ← CORREGIDO: Método save que actualiza correctamente el caché
     public void save(ShipModel value) {
-        value = repository.save(value);
-        if(!cache.contains(value)) {
-            cache.add(value);
-        }
+        // Guardar en la base de datos
+        ShipModel savedModel = repository.save(value);
+
+        // ← AÑADIDO: Log para debugging
+        System.out.println("[ShipModelCache.save] Guardando modelo:");
+        System.out.println("  - shipModelId: " + savedModel.getShipModelId());
+        System.out.println("  - bodyId: " + savedModel.getBodyId());
+        System.out.println("  - name: " + savedModel.getName());
+        System.out.println("  - guid: " + savedModel.getGuid());
+
+        // ← CORREGIDO: Siempre actualizar/insertar en el caché usando shipModelId como key
+        cache.put(savedModel.getShipModelId(), savedModel);
+
+        System.out.println("[ShipModelCache.save] Modelo guardado en caché. Total en caché: " + cache.size());
     }
 
-    // Método para eliminar un modelo de nave (alias para remove)
+    // Método para eliminar un modelo de nave
     public void delete(ShipModel value) {
         remove(value);
     }
@@ -58,32 +69,61 @@ public class ShipModelCache {
     // Método para eliminar un modelo de nave del repositorio y del caché
     public void remove(ShipModel value) {
         repository.delete(value);
-        cache.remove(value);
+        cache.remove(value.getShipModelId());  // ← CAMBIADO
     }
 
     // Método para encontrar modelos de nave por GUID y estado de eliminación
     public List<ShipModel> findAllByGuidAndDeleted(int guid, boolean deleted) {
-        return cache.stream().filter(shipModel -> shipModel.getGuid() == guid && shipModel.isDeleted() == deleted).collect(Collectors.toList());
+        return cache.values().stream()  // ← CAMBIADO
+                .filter(shipModel -> shipModel.getGuid() == guid && shipModel.isDeleted() == deleted)
+                .collect(Collectors.toList());
     }
 
-    // Método para encontrar un modelo de nave por ID de modelo de nave
+    // ← CORREGIDO: Búsqueda directa por key, más eficiente y sin duplicados
     public ShipModel findByShipModelId(int shipModelId) {
-        return cache.stream().filter(shipModel -> shipModel.getShipModelId() == shipModelId).findFirst().orElse(null);
+        ShipModel model = cache.get(shipModelId);
+
+        // ← AÑADIDO: Log para debugging
+        if (model != null) {
+            System.out.println("[ShipModelCache.findByShipModelId] Encontrado modelo " + shipModelId + ":");
+            System.out.println("  - bodyId: " + model.getBodyId());
+            System.out.println("  - name: " + model.getName());
+        } else {
+            System.out.println("[ShipModelCache.findByShipModelId] NO encontrado modelo " + shipModelId);
+        }
+
+        return model;
     }
 
     // Método para encontrar un modelo de nave por GUID
     public ShipModel findByGuid(int guid) {
-        return cache.stream().filter(shipModel -> shipModel.getGuid() == guid).findFirst().orElse(null);
+        return cache.values().stream()  // ← CAMBIADO
+                .filter(shipModel -> shipModel.getGuid() == guid)
+                .findFirst()
+                .orElse(null);
     }
 
     // Método para encontrar modelos de nave por nombre y GUID
     public List<ShipModel> findAllByNameAndGuid(String name, int guid) {
-        return cache.stream().filter(shipModel -> shipModel.getName().equals(name) && shipModel.getGuid() == guid).collect(Collectors.toList());
+        return cache.values().stream()  // ← CAMBIADO
+                .filter(shipModel -> shipModel.getName().equals(name) && shipModel.getGuid() == guid)
+                .collect(Collectors.toList());
     }
 
     // Método para contar el número de modelos de nave en el caché
     public long count() {
         return cache.size();
+    }
+
+    // ← AÑADIDO: Método para recargar el caché desde la base de datos
+    public void reload() {
+        cache.clear();
+        init();
+    }
+
+    // ← AÑADIDO: Método para verificar si existe un modelo
+    public boolean exists(int shipModelId) {
+        return cache.containsKey(shipModelId);
     }
 
 }
