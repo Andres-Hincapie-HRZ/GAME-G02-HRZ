@@ -1,0 +1,1 @@
+3.Battleships deal extra damage to Cruisers, as well as lessening the damage received from Cruisers.

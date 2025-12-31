@@ -1,0 +1,14 @@
+.play-page-cambus {
+  width: 95vw;
+  min-height: 650px;
+  margin-left: 3%;
+  background-color: rgba(211, 211, 211, 0.3);
+  border: 2px solid black;
+}
+
+.play-page-btn {
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+

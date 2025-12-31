@@ -1,0 +1,1 @@
+Consejo: el límite de construcción para un jugador es de un millón.

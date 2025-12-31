@@ -1,0 +1,1 @@
+1. Selling Interface: You can sell items during auctions. Admin fees will be required based on the length of time your items are up for sale. The longer the time, the higher the fees.You can reduce the fees with your Trade Harbor. The higher its level,the lower the admin fee will be be.

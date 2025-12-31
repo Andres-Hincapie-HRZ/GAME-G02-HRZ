@@ -1,0 +1,1 @@
+9. Esta función solo está disponible para los jugadores que no superen el nivel 9.

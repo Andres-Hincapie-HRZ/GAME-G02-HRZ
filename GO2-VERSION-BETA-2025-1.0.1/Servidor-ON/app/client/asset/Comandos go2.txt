@@ -1,0 +1,31 @@
+Comandos Administrativos
+
+/add ~ Te da 900.000.00 de oro, he3, metal, vouchers y mp
+/ban <id> <mensaje> ~ Banea a alguien permanentemente
+/blueprints <id> [complete] ~ Te da todos los blueprints ("complete" significa que te dará TODOS los blueprints en su máximo nivel, si no se envia te los dará en nivel 1)
+/broadcast <mensaje> ~ Envia algo como si fuera el sistema
+/changenickname <id> <nombre> ~ Cambiar el nombre a un usuario
+/changepassword <id> <clave> ~ Cambia la clave a un usuario (incluye a los usuarios de la cuenta)
+/changerank <id> <rango> ~ Cambia de rango a un usuario (rangos disponibles: VIP, MVP, GM, MOD, ADMIN)
+/create <usuario> ~ Crear una nueva cuenta generada al azar
+/delete <cuenta> ~ Borra una cuenta (comando peligroso, puede generar errores/evitar)
+/get <itemId> <cantidad> ~ Te da el objeto del ID que quieras y la cantidad
+/gift <lock/unlock> <itemId> <cantidad> ~ Le regala a todo el servidor un item del tipo y cantidad elegida, si escribes "lock" lo dará con candado, si escribes cualquier otra cosa lo dará sin candado.
+/give <id> <itemId> <cantidad> ~ Envia un item a un usuario con el ID y cantidad que quieras.
+/purchasemp <id> <cantidad> ~ Envia mp a un jugador.
+/info ~ Podrás ver la versión y el uptime actual del servidor.
+/maintenance [{timeParse}] ~ Programa un mantenimiento.
+/mp <id> ~ Le otorga 900.000.000 de MP al ID que elijas.
+/mute <id> {timeParse} <mensaje> ~ Silencia a un jugador.
+/performance ~ Te muestra información importante para conocer el rendimiento actual del servidor.
+/resources <id> ~ Otorga 900.000.000 de oro, he3, metal y vouchers al ID elegida.
+/restart [{timeParse}] ~ Programa un restart.
+/sban <id> <mensaje> ~ Banea a alguien permanentemente (medusa será silenciosa)
+/spy <bloc|corp|stop> <id> ~ Espia el chat de bloque o alianza de un jugador.
+/status ~ Te muestra jugadores en linea, hilos activos y memoria actual del servidor.
+/stempban <id> {timeParse} <mensaje> ~ Banea a un jugador temporalmente (medusa será silenciosa)
+/tempban <id> {timeParse} <mensaje> ~ Banea a un jugador temporalmente.
+/turnpeace <x> <y> ~ Cambia la paz de un planeta de recursos (comando peligroso, usar bajo precaución).
+/unban <id> ~ Desbanea a un jugador.
+/userinfo <id> ~ Muestra información relevante del jugador.
+/warn <id> <mensaje> ~ Envia una advertencia a un jugador. 

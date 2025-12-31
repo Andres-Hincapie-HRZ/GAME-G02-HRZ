@@ -1,0 +1,1 @@
+Crea tu nave en la ventana "Diseñar naves".

@@ -1,0 +1,1 @@
+Indicates the maximum number of ships that can be placed in a fleet and used in battle. Additional ships may be added to the fleet in excess of the effective number, but they will not be counted in battle beyond their shield and structure values. (The types and insignias of commanders will affect the effective number of ships.)

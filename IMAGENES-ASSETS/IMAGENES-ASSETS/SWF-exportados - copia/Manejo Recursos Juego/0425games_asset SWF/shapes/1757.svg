@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:ffdec="https://www.free-decompiler.com/flash" xmlns:xlink="http://www.w3.org/1999/xlink" ffdec:objectType="shape" height="17.0px" width="17.0px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 0.5, 0.5)">
+    <path d="M16.0 16.0 L0.0 16.0 0.0 0.0 16.0 0.0 16.0 16.0" fill="#00337e" fill-rule="evenodd" stroke="none"/>
+    <path d="M16.0 16.0 L0.0 16.0 0.0 0.0 16.0 0.0 16.0 16.0 Z" ffdec:has-small-stroke="true" ffdec:original-stroke-width="0.8" fill="none" stroke="#0051d1" stroke-linecap="square" stroke-linejoin="miter-clip" stroke-miterlimit="3.0" stroke-width="1.0"/>
+    <pattern height="15" id="PatternID_1757_1" overflow="visible" patternTransform="matrix(1.0, 0.0, 0.0, 1.0, 0.5, 0.5)" patternUnits="userSpaceOnUse" viewBox="0 0 15 15" width="15">
+      <image height="15" style="image-rendering:optimizeSpeed; image-rendering:pixelated" width="15" xlink:href="data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAIAAAC0tAIdAAACsklEQVR4XmNgMK5j0Klj0Gj4/+fIfw6G//+f/09y+c/A8N9L5///V/8FGL6828+gXMegXwdSCcKmTdrR/f8/7vvPD1R9+2ZswBUGhts+9v//3/0vx3DvzFJRzy4GPYhqwzpG86Z1S9fvXLevQ8/Y1DVUwsaHw8RZ2MIrKj2vKSZ73uzteiG9DLoQ1UBKra6nb0t0TLG4gZW0iraWnqKmjriypqKdW0DH5PYJffOZTFoYNOsYDICqVWvYrdoik0rt7fW0tGRqS3UOb47tmZt/40xUY6W1vb3FlYtXApNaWcyAGmoZujsXTumetn1bnbWlblO5wv//uYsO7pi/d97//5P//+2cN9EyNyPuzYtDs7pn1jdOY5g+9dCuLcd37WxxsJJ+ezHu//9O9uJH/9/m/f+/+P//af//dMWGqF06f7y3Z5WIQycDg1RVbvWUqRNLqwsM/v/IT1x6gSHgffScbbHLbwbNvfTn//GpHQ6b1m3S9a5lUKoGurusoq6jpbWguVjt9IlqhvS/DHHvGcLfMTj85Ci79f//ztZKy8XzFyfkdQN9yNDVMG3jygMT+gvtTAVvHg78/6nmx83C/8/zGIp/XrwHdH1VXIjMyuXLVs/fPql3PkNiVk9+bs/qlWWuzoZl6fxvLkb8f5L74kF52uqb//8UTu3WT4wNXbJgdnBqn3lYPwMoIFXq7EKKDu0r9nBz8HXmXTDBsn9aWHO3f2OZpr62antDvZxVPoM6OIGAwlyzzjlm8qol8z9/mLBkUW2An4uZiZalsYKzvXVdbWJdcX1xwxTH6E4GI0g60a0rq5lzeMNNz7jG1v6eUycmLZhfnJIasn5d2esXvZeOHE8vny5o3QhLVQZ12n7dbBYtDEq1DArVE7o3H9n+Iz5vHrdefeeEGRMm7raMnAMy2LgOADEFOA7tg43lAAAAAElFTkSuQmCC"/>
+    </pattern>
+    <path d="M0.5 0.5 L15.5 0.5 15.5 15.5 0.5 15.5 0.5 0.5" ffdec:fill-bitmapId="1756" style="fill:url(#PatternID_1757_1)"/>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+ &nbsp;Resource comsats can be built in the blue zone of your land base. Resources can be harvested periodically, which varies depending on the resource type. &nbsp;Red zones represent areas contested by other players. Ownership of these areas is determined by battles between players contesting them.

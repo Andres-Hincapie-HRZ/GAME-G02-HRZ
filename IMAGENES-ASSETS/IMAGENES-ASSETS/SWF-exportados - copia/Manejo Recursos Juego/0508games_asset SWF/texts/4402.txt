@@ -1,0 +1,1 @@
+2. Interfaz de compra: te permite comprar objetos. Encuentra el objeto que necesitas rápidamente indicando su nombre en la casilla de búsqueda. Recibirás el objeto en tu buzón tras haber completado la compra.

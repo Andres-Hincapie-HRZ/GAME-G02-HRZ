@@ -1,0 +1,54 @@
+Análisis de la estructura del paquete 'src/main/java/com/go2super/resources'
+
+Este paquete contiene clases y recursos para manejar datos del juego, incluyendo datos JSON, localización, serialización y adaptadores. A continuación, se detalla cada subcarpeta y archivo Java analizado.
+
+1. **Archivos en el nivel raíz:**
+   - **JsonData.java**: Clase abstracta vacía que sirve como base para otras clases de datos JSON. Probablemente define una estructura común para objetos serializables.
+   - **ResourceManager.java**: Clase principal que gestiona la carga y acceso a recursos del juego. Es un singleton que carga datos JSON desde archivos en 'data/', maneja localización, diccionarios y proporciona métodos estáticos para acceder a cada tipo de recurso (e.g., getProps(), getLevels()). Usa Gson para deserialización y Spring para inyección de dependencias.
+
+2. **Subcarpeta 'adapter/':**
+   - **RuntimeTypeAdapterFactory.java**: Adaptador para Gson que maneja tipos polimórficos en JSON. Agrega un campo de tipo (por defecto "type") para deserializar correctamente subclases. Útil para objetos con herencia donde el JSON no especifica el tipo exacto.
+
+3. **Subcarpeta 'data/':**
+   Contiene clases de datos que extienden JsonData, representando entidades del juego como edificios, layouts, instancias, etc. Ejemplos:
+   - **BuildData.java**: Datos de edificios, incluyendo ID, nombre, tipo, límites y niveles con metadatos.
+   - **LayoutData.java**: Datos de layouts de flotas, con diseños, comandantes y métodos para generar BattleFleet.
+   - **InstanceData.java**: Datos de instancias de juego, con recompensas, flotas enemigas y métodos para generar enemigos en batallas.
+   - **LevelData.java**: Datos de niveles de jugador, con experiencia y número de comandantes.
+   - **PropData.java**: Datos de props (ítems), con tipos variados (gems, chips, commanders) y métodos para acceder a datos específicos.
+   - Otros archivos similares incluyen ChipData, CommanderData, etc., cada uno con propiedades específicas del juego.
+
+   **Subcarpeta 'data/meta/':**
+   Metadatos para los datos principales, como efectos, requisitos, etc.
+   - **BuildLevelMeta.java**: Metadatos de niveles de edificios, con costos, efectos y verificación de requisitos para construir.
+   - **EnemyStatsMeta.java**: Estadísticas de enemigos (precisión, electrones, velocidad, evasión).
+   - **LayoutDesignMeta.java**: Diseños de layouts, con modelos de naves y cantidades.
+   - **RewardMeta.java**: Recompensas con props, números y pesos.
+   - **TaskRequirementMeta.java**: Requisitos para tareas, verificando métricas, techs, recursos, etc., del usuario.
+
+   **Subcarpeta 'data/props/':**
+   Datos específicos de props.
+   - **PropCommanderData.java**: Datos de props de comandantes, con referencia a CommanderStatsData.
+   - **PropGemData.java**: Datos de gems, con tipo, nivel, color y efectos.
+   - **PropChipData.java**: Datos de chips, con tipo, nivel, color y efectos.
+   - **PropBodyData.java**: Datos de cuerpos de naves, con requisitos para uso.
+   - **PropPartData.java**: Datos de partes de naves, similar a PropBodyData.
+
+4. **Subcarpeta 'json/':**
+   Clases que contienen listas de datos JSON, con métodos para buscar y filtrar.
+   - **BuildsJson.java**: Lista de BuildData, con métodos para obtener por nombre o ID.
+   - **LevelsJson.java**: Lista de LevelData, con métodos para obtener EXP máxima y datos por nivel.
+   - **PropsJson.java**: Lista de PropData, con listas filtradas por tipo (gems, chips, commanders) y métodos para buscar.
+   - **ShipBodyJson.java**: Lista de ShipBodyData, con cache para buscar por ID o nombre.
+   - **TasksJson.java**: Lista de tareas principales y secundarias, con métodos para obtener tareas por ID.
+
+5. **Subcarpeta 'localization/':**
+   - **Localization.java**: Enum para manejar localización, cargando JSON de idiomas (e.g., en-us.json) y proporcionando métodos para obtener strings localizados.
+
+6. **Subcarpeta 'serialization/':**
+   Deserializadores personalizados para Gson, para manejar JSON complejos.
+   - **LevelsJsonDeserializer.java**: Deserializa LevelsJson directamente.
+   - **PropsJsonDeserializer.java**: Deserializa PropsJson, manejando tipos de props y creando objetos PropData con datos específicos.
+   - **BuildingsJsonDeserializer.java**: Deserializa BuildingsJson directamente.
+
+En resumen, este paquete es el núcleo para cargar y gestionar datos del juego desde archivos JSON, con soporte para polimorfismo, localización y serialización personalizada. Usa Lombok para reducir boilerplate y Spring para integración.

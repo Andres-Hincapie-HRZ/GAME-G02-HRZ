@@ -1,0 +1,1 @@
+1. Cartas similares: debes añadir dos cartas iguales del mismo rango.2. Cartas diferentes: tendrás una ranura principal y dos ranuras secundarias y deberás usar dos cartas diferentes, pero del mismo tipo y con el mismo rango. Si la fusión tiene éxito, la carta principal subirá un nivel.

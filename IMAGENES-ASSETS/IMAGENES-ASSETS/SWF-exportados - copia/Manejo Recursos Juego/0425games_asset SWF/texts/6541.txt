@@ -1,0 +1,1 @@
+1. Frigates deal extra damage to Battleships, as well as lessening the damage received from Battleships.

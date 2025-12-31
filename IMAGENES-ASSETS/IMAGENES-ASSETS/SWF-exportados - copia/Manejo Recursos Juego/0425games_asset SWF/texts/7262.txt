@@ -1,0 +1,1 @@
+Tip: Single-player limit for shipbuilding is 2 million.

@@ -1,0 +1,1 @@
+Ships in the third row will have 75% of their attack power.

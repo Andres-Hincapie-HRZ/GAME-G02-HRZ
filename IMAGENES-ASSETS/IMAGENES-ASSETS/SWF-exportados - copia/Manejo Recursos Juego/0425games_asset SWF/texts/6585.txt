@@ -1,0 +1,1 @@
+Customize the weapon range and lock target for your fleet.(If you are attacking a planet,you will need to select defensive buildings as targets.)

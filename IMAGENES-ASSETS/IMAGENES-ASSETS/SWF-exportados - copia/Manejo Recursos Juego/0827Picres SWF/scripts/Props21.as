@@ -1,0 +1,15 @@
+package
+{
+   import flash.display.BitmapData;
+   
+   [Embed(source="/_assets/328_Props21.jpg")]
+   public dynamic class Props21 extends BitmapData
+   {
+      
+      public function Props21(param1:Number, param2:Number)
+      {
+         super(param1,param2);
+      }
+   }
+}
+

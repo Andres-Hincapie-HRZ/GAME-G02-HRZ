@@ -1,0 +1,1 @@
+1. Interfaz de venta: te permite poner tus objetos en venta. Deberás pagar tasas en función de la duración que establezcas: cuanto mayor tiempo dure una venta, más tasas deberás pagar. Podrás disminuir el porcentaje de tasas mejorando tu comercio espacial.

@@ -1,0 +1,15 @@
+package
+{
+   import flash.display.BitmapData;
+   
+   [Embed(source="/_assets/177_Assembly181.jpg")]
+   public dynamic class Assembly181 extends BitmapData
+   {
+      
+      public function Assembly181(param1:Number, param2:Number)
+      {
+         super(param1,param2);
+      }
+   }
+}
+

@@ -1,0 +1,1 @@
+No podrás utilizar más de un número determinado de naves para tu flota. Si incluyes más naves que las permitidas, los valores de escudos y estructuras de la flota no aumentarán El número de naves permitidas varía en función del tipo de comandante y su distintivo.

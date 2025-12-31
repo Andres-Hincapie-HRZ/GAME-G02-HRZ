@@ -1,0 +1,1 @@
+Tip: distribute He3 load based on what modules your ship has equipped.

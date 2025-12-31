@@ -1,0 +1,1 @@
+(Opcional) Aviso: Las contraseñas tienen un límite de 6 número &nbsp;y deben ser sólo números.

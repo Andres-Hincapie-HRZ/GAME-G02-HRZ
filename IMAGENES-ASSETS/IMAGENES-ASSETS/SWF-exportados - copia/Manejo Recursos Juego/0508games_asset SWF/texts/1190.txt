@@ -1,0 +1,1 @@
+Desdobla el interfaz del Partido de Liga del Tablero de Mandos o Estación Espacial.

@@ -1,0 +1,1 @@
+7. This function is unavailable while there are fleets remaining in your Space base.

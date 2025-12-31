@@ -1,0 +1,1 @@
+You can click the toggle button to switch between the ship design and blueprint research interfaces.

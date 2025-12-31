@@ -1,0 +1,1 @@
+3. En venta: te permite examinar los objetos que has decidido vender y eliminarlos si crees conveniente cancelar la venta. Los objetos que elimines te serán devueltos por correo, pero no recibirás las tasas pagadas.

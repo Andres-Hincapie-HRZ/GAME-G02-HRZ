@@ -1,0 +1,1 @@
+1. Same Card: both cards must be the same, including rank.2. Different Card: 1 main card and 2 sub card slots. 2 different cards need to meet the criteria of having the same type and same rank. If merging attempt is successful, the main card will advance in level.

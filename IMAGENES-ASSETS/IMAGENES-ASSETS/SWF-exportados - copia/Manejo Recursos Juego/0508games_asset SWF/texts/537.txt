@@ -1,0 +1,1 @@
+1. Los jugadores pueden unirse a un ataque hasta 5 veces al día. Cada ataque cuesta un Mapa de las Ruinas.2. Los jugadores tambien pueden interceptar hasta 5 veces al día.3. Hay 10 minutos de periodo de enfriamiento despues de cada intento de interceptacion.

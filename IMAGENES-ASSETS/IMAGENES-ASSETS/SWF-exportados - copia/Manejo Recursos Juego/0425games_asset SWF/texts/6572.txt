@@ -1,0 +1,1 @@
+2. Purchase Interface: You can purchase items here. Locate the item you need fast by entering its name in the search box. The item will be delivered to your mailbox upon successful purchase.

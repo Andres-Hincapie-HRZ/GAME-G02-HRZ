@@ -1,0 +1,1 @@
+Rewards:There are two types of rewards: Match and Rank rewards.1. Match Rewards:Victory: 10 BadgesDefeat: 10 Honor

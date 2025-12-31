@@ -1,0 +1,1 @@
+Indica la ID o las coordenadas del jugador para rastrearlo.

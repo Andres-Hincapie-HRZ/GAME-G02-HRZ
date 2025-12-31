@@ -1,0 +1,1 @@
+Reminder: Passwords have a 6 number limit and must be only numbers.

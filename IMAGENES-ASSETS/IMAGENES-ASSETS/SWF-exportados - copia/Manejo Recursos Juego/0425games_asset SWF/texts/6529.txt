@@ -1,0 +1,1 @@
+Design your ship in the ship design interface.

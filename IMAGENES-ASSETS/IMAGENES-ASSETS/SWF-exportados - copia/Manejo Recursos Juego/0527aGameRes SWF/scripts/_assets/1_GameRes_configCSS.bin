@@ -1,0 +1,36 @@
+﻿
+.sample
+{
+	font-family: Showg;
+	font-weight: bold;
+	font-size: 18;
+	color: #000000;
+}
+
+p
+{
+	font-size:12px;
+	color:#006599;
+	border:1px solid #aa3337;
+	width:200px;
+	height:100px;
+}
+
+.test
+{
+	font-size:12px;
+	color:#CCCCCC;
+	font-family: Arial, Helvetica, _sans;
+}
+
+.word
+{
+	font-size:12px;
+	color:#00ff00;
+}
+
+
+
+
+
+
