@@ -71,3 +71,4 @@ Cambiar el diseño del menú principal para mejorar la experiencia de usuario.
 
 - ⏳ Pendiente de inicio  
 - 📅 Inicio previsto: **7 de enero de 2026**
+- Quiero un reporte asi mismo como este de que se va completando 
