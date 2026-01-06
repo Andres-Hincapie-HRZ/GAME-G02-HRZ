@@ -4,10 +4,10 @@ Listado de tareas planificadas para el mes de **enero de 2026**, con tiempos est
 
 ---
 
-## 1. Investigación de Comandos del Juego (Discord)
+## 1. Investigación de Comandos del Juego
 
 **Objetivo:**  
-Encontrar y documentar todos los comandos del juego en Discord, cubriendo todos los aspectos disponibles.
+Encontrar y documentar todos los comandos del juego, cubriendo todos los aspectos disponibles.
 
 - **Duración:** 2 días  
 - **Fechas:** 7 al 8 de enero de 2026  
