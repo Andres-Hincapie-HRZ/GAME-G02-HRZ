@@ -1,0 +1,69 @@
+1. /icon [id]  
+
+  Función: Cambia el icono/avatar del jugador
+
+  Uso:
+  
+  /icon – Muestra tu icono actual
+  
+  /icon <número> – Cambia el icono (rango: 1–15)
+  
+  /icon 1000 – Icono especial solo para staff
+
+2. /discord
+  
+  Función: Vincula tu cuenta de juego con Discord
+  
+  Proceso:
+  
+  Genera un código de 4 caracteres (válido por 1 hora)
+  
+  Te dice que vayas al servidor de Discord
+  
+  Debes escribir /link <código> en el canal #bots
+  
+  Nota: Si ya tienes Discord vinculado, te pide usar /remove discord
+
+3. /remove discord
+
+  Función: Desvincula tu cuenta de Discord del juego
+  
+  Nota: Solo funciona si tenías Discord previamente vinculado
+
+4. /block <guid>
+
+  Función: Bloquea/desbloquea a un jugador por su GUID
+  
+  Características:
+  
+  Máximo 30 usuarios bloqueados
+  
+  Si el usuario ya está bloqueado, lo desbloquea
+  
+  No te puedes bloquear a ti mismo
+
+5. /blacklist
+  
+  Función: Muestra tu lista de usuarios bloqueados
+  
+  Características:
+  
+  Muestra los primeros 5 nombres
+  
+  Si hay más de 5, indica cuántos más hay
+
+6. /hasblock <guid>
+  
+  Función: Verifica si un usuario específico está en tu lista de bloqueados
+  
+  Uso:
+  
+  /hasblock <guid> – Responde si está bloqueado o no
+
+7. /notdisturb o /dnd
+
+  Función: Activa/desactiva el modo “No Molestar”
+  
+  Uso:
+  
+  Cada vez que lo usas alterna entre activado/desactivado
